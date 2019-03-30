@@ -2,7 +2,7 @@
 
 [Starbound Mod] GFOW-to-UC-bridge (Requires Umbral Coalition)
 
-#The Galactic Federation of Webbs
+# The Galactic Federation of Webbs
 
 
 <----->
