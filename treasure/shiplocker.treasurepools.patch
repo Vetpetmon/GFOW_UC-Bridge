@@ -1,0 +1,41 @@
+[
+  {
+    "op": "add",
+    "path": "/webberStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+	    {"item" : [ "flashlight" ]},
+        {"item" : [ "torch", 15 ]},
+        {"item" : [ "webbersword", 1 ]},
+        {"item" : [ "webbreadonseed", 1 ]},
+        {"item" : [ "webcorexseed", 1 ]},
+        {"item" : [ "webkaradiancarrotseed", 2 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "cannedfood", 1 ]},
+        {"item" : [ "webbersilkcollector", 1 ]}
+      ]
+    }]]
+  },
+  {
+    "op": "add",
+    "path": "/candavaswebberStarterTreasure",
+    "value": [[0, {
+      "fill" : [
+	    {"item" : [ "flashlight" ]},
+        {"item" : [ "torch", 10 ]},
+        {"item" : [ "kyroxfrosterstaff", 1 ]},
+        {"item" : [ "candacandyknife", 1 ]},
+        {"item" : [ "kyroxcocoaberryseed", 2 ]},
+        {"item" : [ "kyroxsugarreedseed", 2 ]},
+        {"item" : [ "kyroxmarshrootsseed", 1 ]},
+        {"item" : [ "kyroxblacklicoseed", 1]},
+        {"item" : [ "chocolate", 1 ]},
+        {"item" : [ "chocolate", 1 ]},
+        {"item" : [ "chocolate", 1 ]},
+        {"item" : [ "chocolate", 1 ]}
+      ]
+    }]]
+  }
+]

@@ -1,0 +1,30 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/webber",
+		"value" : [
+		    "/ships/webber/webbert0.structure",
+			"/ships/webber/webbert1.structure",
+			"/ships/webber/webbert2.structure",
+			"/ships/webber/webbert3.structure",
+			"/ships/webber/webbert4.structure",
+			"/ships/webber/webbert5.structure",
+			"/ships/webber/webbert6.structure",
+			"/ships/webber/webbert7.structure",
+			"/ships/webber/webbert8.structure"
+		]
+	},
+	{ "op" : "add",
+		"path" : "/speciesShips/candavaswebber",
+		"value" : [
+		    "/ships/candavaswebber/candavaswebbert0.structure",
+			"/ships/candavaswebber/candavaswebbert1.structure",
+			"/ships/candavaswebber/candavaswebbert2.structure",
+			"/ships/candavaswebber/candavaswebbert3.structure",
+			"/ships/candavaswebber/candavaswebbert4.structure",
+			"/ships/candavaswebber/candavaswebbert5.structure",
+			"/ships/candavaswebber/candavaswebbert6.structure",
+			"/ships/candavaswebber/candavaswebbert7.structure",
+			"/ships/candavaswebber/candavaswebbert8.structure"
+		]
+	}
+]

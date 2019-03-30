@@ -1,0 +1,32 @@
+{
+
+  //Weapon Parts
+
+  "pickupShotgunClipT1" : {
+    "type" : "tutorial",
+    "text" : "This is a home-made shotgun clip. It's performance may vary based on the creator's craftsmanship, but it should work with most buckshot shotguns."
+    },
+  "pickupShotgunStockT1" : {
+    "type" : "tutorial",
+    "text" : "This is a home-made shotgun stock. A stock is meant to steady your hold on the gun, and dampens the recoil."
+  },
+  "pickupShotgunBarrelT1" : {
+    "type" : "tutorial",
+    "text" : "This is a home-made shotgun barrel. This one is meant to hold 4 buckshot-like bullets for firing at once."
+  },
+
+  //Weapons
+
+  "PickupWebbert0spear" : {
+      "type" : "tutorial",
+      "text" : "The ^red;primitive^reset; weapon you have in your two legs is called a ^orange;hunting weapon^reset;. Hunting weapons are used to obtain food and other organic/non-organic resources, at a higher success rate."
+  },
+  "PickupWebbert1spear" : {
+      "type" : "tutorial",
+      "text" : "This still ^red;primitive^reset; weapon in two of your eight legs still has a 0.9% chance of saving your life. Your own fangs are doing a better job than your brain, you ninnyhammer."
+  },
+  "PickupWebberswordupgrade1" : {
+      "type" : "tutorial",
+      "text" : "Good job. I can now confirm that you can upgrade your weapons. Your survivability chance is now at 9.6%."
+  }
+}

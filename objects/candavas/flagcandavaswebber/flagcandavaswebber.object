@@ -1,0 +1,45 @@
+{
+  "objectName" : "flagcandavaswebber",
+  "colonyTags" : ["candavaswebber", "candavasian"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "pickupflag" ],
+
+  "description" : "The flag of Caramelo Co. Use ^green;[E]^white; to bookmark a teleportation location.",
+  "shortdescription" : "Candavasian Flag",
+  "race" : "candavaswebber",
+
+  "floranDescription" : "Flag is ssshaped like candy.",
+  "glitchDescription" : "Observant. A small locator module attached to this flag allows it to be bookmarked for teleportation.",
+  "novakidDescription" : "I can bookmark this flag for quick teleportin'.",
+
+"candavaswebberDescription" : "It's the flag of our nation, Caramelo Co!",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "flagcandavaswebbericon.png",
+  "orientations" : [
+    {
+      "image" : "flagcandavaswebber.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagcandavaswebber.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "objectName" : "webgfowmural10",
+  "colonyTags" : ["webber"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "It's telling a story, but what does it mean?",
+  "shortdescription" : "GFOW Mural",
+  "race" : "webber",
+
+
+  "floranDescription" : "It sssays something, but what?",
+  "glitchDescription" : "Neutral. I can not read this story.",
+
+  "webberDescription" : "And then, once Viviana is done with us, she will clean up this planet and try again.",
+  "fiiDescription" : "Click, story is not interesting.",
+
+  "inventoryIcon" : "vanokkmuralicon.png",
+  "orientations" : [
+    {
+      "image" : "vanokkmural10.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

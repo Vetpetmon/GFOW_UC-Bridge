@@ -1,0 +1,208 @@
+{
+  "kind" : "webber",
+	"charCreationTooltip" : {
+	"title" : "VANOKKIAN",
+	"subTitle" : "O2",
+	"description" : "Strange creatures clonned improperly that came from a world far different from this one, the Vanokkians were really the only group of \"normal\" webber clones to make it into the space age. Defects run rampant through their empire, but they are not the most mutated clone race as they may think they are."
+  },
+  "nameGen" : [ "/species/webbermalenamegen.config:names", "/species/webbermalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/webberhurt.ogg", "/sfx/humanoid/webberhurt.ogg"],
+  "charGenTextLabels" : [ "Breed", "Hair style", "Shirt", "Legwear", "None", "None", "Shirt color", "Legwear color", "VANOKKIAN", "Personality" ],
+  "skull" : "/humanoid/webber/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=1d1d1dFF?replace=9bd4ffFF=1a1a1aFF?replace=31a6ffFF=151515FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+
+  // Empty Hands
+      { "item" : "flagwebber" },
+      { "item" : "webberweaponworkbench"},
+      { "item" : "webberarmorworkbench"},
+      { "item" : "webbercanningtable" },
+
+// Anvil
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "humantier3head" },
+      { "item" : "humantier3chest" },
+      { "item" : "humantier3pants" },
+      { "item" : "humantier4head" },
+      { "item" : "humantier4chest" },
+      { "item" : "humantier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "humantier5ahead" },
+      { "item" : "humantier5achest" },
+      { "item" : "humantier5apants" },
+      { "item" : "humantier6ahead" },
+      { "item" : "humantier6achest" },
+      { "item" : "humantier6apants" },
+      { "item" : "humantier5mhead" },
+      { "item" : "humantier5mchest" },
+      { "item" : "humantier5mpants" },
+      { "item" : "humantier6mhead" },
+      { "item" : "humantier6mchest" },
+      { "item" : "humantier6mpants" },
+      { "item" : "humantier5shead" },
+      { "item" : "humantier5schest" },
+      { "item" : "humantier5spants" },
+      { "item" : "humantier6shead" },
+      { "item" : "humantier6schest" },
+      { "item" : "humantier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+      //Furniture table 1
+      { "item" : "webbersilkdoor1" },
+      { "item" : "webberbookcase1" },
+      { "item" : "webberbed" },
+      { "item" : "webberchair" },
+      { "item" : "webbercouch" },
+      { "item" : "webbercushionlarge" },
+      { "item" : "webbercushionsmall" },
+      { "item" : "webbercabinet" },
+      { "item" : "ucwebplatform" },
+      // Furniture Table 2
+      { "item" : "webberstoragelocker" },
+      { "item" : "webbershipdoor" },
+      { "item" : "webbershiphatch" },
+
+      //food
+
+      //unique food tba
+
+      // Weapon workbench parts
+
+      { "item" : "webbershotgunclipt1" },
+      { "item" : "webbershotgunbarrelt1" },
+      { "item" : "webbershotgunstockt1" },
+      { "item" : "webberwoodenstick" },
+      { "item" : "webberammoclipsmall" },
+      { "item" : "webberheavyweaponstocksmall" },
+      { "item" : "webberironbarrel" },
+      { "item" : "webbert1sights" },
+      { "item" : "webberwoodenplate" },
+
+      // Weapon workbench weapons
+      { "item" : "webbershotgunteir1" },
+      { "item" : "webbersword" },
+      { "item" : "webbert0spear" },
+      { "item" : "webstick" },
+      { "item" : "stickypistol1" },
+      { "item" : "webmakeshifthandlegunt1" },
+
+      //Clothing workbench EPPs
+      { "item" : "webbersilkcollector" },
+
+      //Clothing workbench clothing
+      { "item" : "webberoutfit1chest" },
+      { "item" : "webberoutfit1legs" },
+      { "item" : "webberoutfit2chest" },
+      { "item" : "webberoutfit2legs" },
+      { "item" : "webberoutfit3chest" },
+      { "item" : "webberoutfit3legs" },
+      { "item" : "webberoutfit4chest" },
+      { "item" : "webberoutfit4legs" },
+      { "item" : "webberprideshirtace" },
+      { "item" : "webberprideshirtaro" },
+      //Clothing workbench armor
+      { "item" : "webberofficer1head" },
+      { "item" : "webberofficer1chest" },
+      { "item" : "webberofficer1legs" }
+	  ]
+  },
+
+  "altOptionAsUndyColor" : true,
+  "headOptionAsBodyColor" : true,
+  "hairColorAsBodyColor" : true,
+
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/webbermaleico.png",
+      "characterImage" : "/interface/title/webbermale.png",
+      "hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13" ],
+      "shirt" : [ "webberoutfit1chest", "webberoutfit2chest", "webberoutfit3chest", "webberoutfit4chest" ],
+      "pants" : [ "webberoutfit1legs", "webberoutfit2legs", "webberoutfit3legs", "webberoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/webbermaleico.png",
+      "characterImage" : "/interface/title/webbermale.png",
+      "hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13" ],
+      "shirt" : [ "webberoutfit1chest", "webberoutfit2chest", "webberoutfit3chest", "webberoutfit4chest" ],
+      "pants" : [ "webberoutfit1legs", "webberoutfit2legs", "webberoutfit3legs", "webberoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    //After "222222", the colors THEN apply to the eyes.
+    //After pure white (#ffffff), stripe colors.
+    //
+    // 00fff6 and 00d9d1 are blue
+    // 00dc24 (lighter) and 2b943c (darker) are green
+    //Common
+    { "1a1a1a" : "1a1a1a", "171717" : "171717", "121212" : "121212", "101010" : "101010", "222222" : "222222", "ededed" : "ededed", "ffffff" : "ffffff", "00d9d1" : "121212", "00fff6" : "171717", "00dc24" : "171717", "2b943c" : "121212", "575757" : "171717", "3b3b3b" : "171717" },
+    //Green-eyed
+    { "1a1a1a" : "1a1a1a", "171717" : "171717", "121212" : "121212", "101010" : "101010", "222222" : "222222", "ededed" : "19ffab", "ffffff" : "7affce", "00d9d1" : "121212", "00fff6" : "171717", "00dc24" : "171717", "2b943c" : "121212", "575757" : "171717", "3b3b3b" : "171717" },
+    //blueberry-eyed
+    { "1a1a1a" : "1a1a1a", "171717" : "171717", "121212" : "121212", "101010" : "101010", "222222" : "222222", "ededed" : "6062eb", "ffffff" : "908cff", "00d9d1" : "121212", "00fff6" : "171717", "00dc24" : "171717", "2b943c" : "121212", "575757" : "171717", "3b3b3b" : "171717" },
+    //Sun-eyed
+    { "1a1a1a" : "1a1a1a", "171717" : "171717", "121212" : "121212", "101010" : "101010", "222222" : "222222", "ededed" : "ede73d", "ffffff" : "efec9a", "00d9d1" : "121212", "00fff6" : "171717", "00dc24" : "171717", "2b943c" : "121212", "575757" : "171717", "3b3b3b" : "171717" },
+    //Nightshade
+    { "1a1a1a" : "1a1a1a", "171717" : "171717", "121212" : "121212", "101010" : "101010", "222222" : "222222", "ededed" : "7627a4", "ffffff" : "a95bd5", "00d9d1" : "121212", "00fff6" : "171717", "00dc24" : "171717", "2b943c" : "121212", "575757" : "171717", "3b3b3b" : "171717" },
+    //Cherry-eyed
+    { "1a1a1a" : "1a1a1a", "171717" : "171717", "121212" : "121212", "101010" : "101010", "222222" : "222222", "ededed" : "700505", "ffffff" : "cf5a5a", "00d9d1" : "121212", "00fff6" : "171717", "00dc24" : "171717", "2b943c" : "121212", "575757" : "171717", "3b3b3b" : "171717" },
+    //Albino
+    { "1a1a1a" : "efefef", "171717" : "e7e7e7", "121212" : "d0d0d0", "101010" : "bcbcbc", "222222" : "c1c1c1", "ededed" : "f15252", "ffffff" : "f69898", "00d9d1" : "d0d0d0", "00fff6" : "e7e7e7", "00dc24" : "e7e7e7", "2b943c" : "d0d0d0", "575757" : "e7e7e7", "3b3b3b" : "e7e7e7" },
+    //Warrior
+    { "1a1a1a" : "1a1a1a", "171717" : "171717", "121212" : "121212", "101010" : "101010", "222222" : "222222", "ededed" : "ededed", "ffffff" : "ffffff", "00d9d1" : "c8c455", "00fff6" : "e1dd63", "00dc24" : "171717", "2b943c" : "121212", "575757" : "171717", "3b3b3b" : "171717" },
+    //Poison
+    { "1a1a1a" : "d5eaa2", "171717" : "e1dd63", "121212" : "d4d065", "101010" : "c8c455", "222222" : "c1de7c", "ededed" : "ededed", "ffffff" : "ffffff", "00d9d1" : "c8c455", "00fff6" : "e1dd63", "00dc24" : "00dc24", "2b943c" : "2b943c", "575757" : "00dc24", "3b3b3b" : "e1dd63" },
+    //Arctic
+    { "1a1a1a" : "969696", "171717" : "e7e7e7", "121212" : "d0d0d0", "101010" : "bcbcbc", "222222" : "c1c1c1", "ededed" : "9fcee3", "ffffff" : "ffffff", "00d9d1" : "d0d0d0", "00fff6" : "e7e7e7", "00dc24" : "e7e7e7", "2b943c" : "d0d0d0", "575757" : "e7e7e7", "3b3b3b" : "e7e7e7" },
+    //Artic, purple eyes
+    { "1a1a1a" : "969696", "171717" : "e7e7e7", "121212" : "d0d0d0", "101010" : "bcbcbc", "222222" : "c1c1c1", "ededed" : "7627a4", "ffffff" : "a95bd5", "00d9d1" : "d0d0d0", "00fff6" : "e7e7e7", "00dc24" : "e7e7e7", "2b943c" : "d0d0d0", "575757" : "e7e7e7", "3b3b3b" : "e7e7e7" },
+    //Sulfuric
+    { "1a1a1a" : "ffffa7", "171717" : "e2c344", "121212" : "6f6300", "101010" : "aea133", "222222" : "ffffdd", "ededed" : "ededed", "ffffff" : "ffffff", "00d9d1" : "6f6300", "00fff6" : "aea133", "00dc24" : "e2c344", "2b943c" : "6f6300", "575757" : "e2c344", "3b3b3b" : "e2c344" },
+    //Infernal X
+    { "1a1a1a" : "583b3b", "171717" : "442929", "121212" : "311616", "101010" : "060000", "222222" : "1e0303", "ededed" : "dc8700", "ffffff" : "ffc974", "00d9d1" : "120000", "00fff6" : "442929", "00dc24" : "442929", "2b943c" : "120000", "575757" : "700505", "3b3b3b" : "820c0c" },
+    //Infernal Y
+    { "1a1a1a" : "350505", "171717" : "250101", "121212" : "2a0000", "101010" : "060000", "222222" : "1e0303", "ededed" : "0f0000", "ffffff" : "7b5252", "00d9d1" : "120000", "00fff6" : "250101", "00dc24" : "250101", "2b943c" : "120000", "575757" : "634444", "3b3b3b" : "634444" },
+    //Infernal Z
+    { "1a1a1a" : "350505", "171717" : "250101", "121212" : "2a0000", "101010" : "060000", "222222" : "1e0303", "ededed" : "de550a", "ffffff" : "2c0a0a", "00d9d1" : "120000", "00fff6" : "250101", "00dc24" : "250101", "2b943c" : "120000", "575757" : "700505", "3b3b3b" : "700505" },
+    //Mutated Common
+    { "1a1a1a" : "6d547e", "171717" : "5a426b", "121212" : "352a54", "101010" : "080628", "222222" : "6d547e", "ededed" : "ededed", "ffffff" : "ffffff", "00d9d1" : "352a54", "00fff6" : "5a426b", "00dc24" : "5a426b", "2b943c" : "352a54", "575757" : "5a426b", "3b3b3b" : "5a426b" },
+    //Mutated Common, green eyes
+    { "1a1a1a" : "6d547e", "171717" : "5a426b", "121212" : "352a54", "101010" : "080628", "222222" : "6d547e", "ededed" : "19ffab", "ffffff" : "7affce", "00d9d1" : "352a54", "00fff6" : "5a426b", "00dc24" : "5a426b", "2b943c" : "352a54", "575757" : "5a426b", "3b3b3b" : "5a426b" },
+    //Mutated Common, red eyes
+    { "1a1a1a" : "6d547e", "171717" : "5a426b", "121212" : "352a54", "101010" : "080628", "222222" : "6d547e", "ededed" : "f15252", "ffffff" : "f69898", "00d9d1" : "352a54", "00fff6" : "5a426b", "00dc24" : "5a426b", "2b943c" : "352a54", "575757" : "5a426b", "3b3b3b" : "5a426b" },
+    //Mutated Common, yellow eyes
+    { "1a1a1a" : "6d547e", "171717" : "5a426b", "121212" : "352a54", "101010" : "080628", "222222" : "6d547e", "ededed" : "ede73d", "ffffff" : "efec9a", "00d9d1" : "352a54", "00fff6" : "5a426b", "00dc24" : "5a426b", "2b943c" : "352a54", "575757" : "5a426b", "3b3b3b" : "5a426b" },
+    //Mutated Common, blue eyes
+    { "1a1a1a" : "6d547e", "171717" : "5a426b", "121212" : "352a54", "101010" : "080628", "222222" : "6d547e", "ededed" : "6062eb", "ffffff" : "908cff", "00d9d1" : "352a54", "00fff6" : "5a426b", "00dc24" : "5a426b", "2b943c" : "352a54", "575757" : "5a426b", "3b3b3b" : "5a426b" }
+  ], // #080628 #352a54
+  "undyColor" : [
+    //literally nothing.
+    { "000000" : "000000"}
+  ],
+  "hairColor" : [
+    //literally nothing.
+    { "000000" : "000000"}
+  ]
+}

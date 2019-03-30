@@ -1,0 +1,33 @@
+{
+  "objectName" : "webgfowmural8",
+  "colonyTags" : ["webber"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "It's telling a story, but what does it mean?",
+  "shortdescription" : "GFOW Mural",
+  "race" : "webber",
+
+
+  "floranDescription" : "It sssays something, but what?",
+  "glitchDescription" : "Neutral. I can not read this story.",
+
+  "webberDescription" : "A massive beast, named Massigogonjutor, had formed, and destroyed every attempt to leave by ship. I wonder why it didn't destroy ours, then.",
+  "fiiDescription" : "Click, story is not interesting.",
+
+  "inventoryIcon" : "vanokkmuralicon.png",
+  "orientations" : [
+    {
+      "image" : "vanokkmural8.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

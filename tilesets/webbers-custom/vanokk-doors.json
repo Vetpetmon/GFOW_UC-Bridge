@@ -1,0 +1,44 @@
+{ "columns":0,
+ "margin":0,
+ "name":"vanokk-doors",
+ "properties":
+    {
+
+    },
+ "spacing":0,
+ "tilecount":2,
+ "tileheight":40,
+ "tileproperties":
+    {
+     "0":
+        {
+         "\/\/description":"It's the door of a low-end home in Vanokk.",
+         "\/\/name":"webtrailerparkdoorzone48a",
+         "\/\/shortdescription":"Trailer Park Door",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"webtrailerparkdoorzone48a"
+        },
+     "1":
+        {
+         "\/\/description":"It's the door of a low-end home in Vanokk.",
+         "\/\/name":"webtrailerparkdoorzone48",
+         "\/\/shortdescription":"Trailer Park Door",
+         "imagePositionX":"-16",
+         "imagePositionY":"0",
+         "object":"webtrailerparkdoorzone48"
+        }
+    },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/tiled\/webbers-custom\/vanokk\/trailerparkdoor.png"
+        },
+     "1":
+        {
+         "image":"..\/..\/..\/..\/..\/..\/..\/Program Files (x86)\/Steam\/steamapps\/common\/Starbound\/tiled\/tiled\/webbers-custom\/vanokk\/trailerparkdoor.png"
+        }
+    },
+ "tilewidth":16
+}

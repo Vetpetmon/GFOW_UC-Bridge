@@ -1,0 +1,10 @@
+{
+  "itemName": "webberironbarrel",
+  "rarity": "common",
+  "price": 200,
+  "category": "webberweaponpart",
+  "inventoryIcon" : "webberironbarrel.png",
+  "description" : "A cheap barrel for low-end guns. ^cyan;For use by Webbers.^white;",
+  "shortdescription" : "Iron Barrel",
+  "itemTags" : [ "reagent" ]
+}

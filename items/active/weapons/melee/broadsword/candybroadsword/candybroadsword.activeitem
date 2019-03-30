@@ -1,0 +1,38 @@
+{
+  "itemName" : "candacandybroadsword",
+  "price" : 10,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A sharp sword made out of pure candy.",
+  "shortdescription" : "Candy Sword",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  //"learnBlueprintsOnPickup" : [ "" ],
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "candybroadsword.png",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "candybroadsword.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.65,
+    "baseDps" : 12,
+    "damageConfig" : {
+      "statusEffects" : [ "sugarinfection" ]
+    }
+  },
+
+  //FU crit stats
+  "critChance" : 3,
+  "critBonus" : 2,
+
+  "altAbilityType" : "spinslash",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

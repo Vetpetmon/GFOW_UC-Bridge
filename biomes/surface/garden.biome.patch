@@ -1,0 +1,25 @@
+[
+  //microdungeons
+  { "op" : "add",
+    "path" : "/surfacePlaceables/items/-",
+    "value" : {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/gfow-distributions.config:gfow-microdungeonuncommon",
+  "type" : "microdungeon",
+  "microdungeons" : [ "primitivewebberhouseclassic" ]
+    }
+  },
+  { "op" : "add",
+    "path" : "/surfacePlaceables/items/-",
+    "value" : {
+      "mode" : "floor",
+      "priority" : 1.0,
+      "variants" : 1,
+      "distribution" : "/biomes/gfow-distributions.config:gfowmonolith-microdungeonrare",
+  "type" : "microdungeon",
+  "microdungeons" : [ "webbermonoliths" ]
+    }
+  }
+]

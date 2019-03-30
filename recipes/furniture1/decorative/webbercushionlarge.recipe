@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "webberspidersilk", "count" : 8 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "webbercushionlarge","count" : 1},
+  "groups" : [ "craftingfurniture", "decoration", "all" ]
+}

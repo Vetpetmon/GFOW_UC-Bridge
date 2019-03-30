@@ -1,0 +1,44 @@
+{
+  "objectName" : "candacompressor",
+  "colonyTags" : [ "candavasian" ],
+  "rarity" : "Essential",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/candacompressor.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^orange;Compressor^reset;",
+        "subtitle" : "Compresses materials together to form new ones.",
+        "icon" : {
+          "file" : "/interface/crafting/candachocobrick.png"
+        }
+      }
+    },
+    "filter" : [ "candavascompressor" ]
+  },
+  "printable" : false,
+  "race" : "candavaswebber",
+  "category" : "crafting",
+  "price" : 250,
+  "description" : "Compresses materials to form new materials.",
+  "subtitle" : "Compressor",
+  "shortdescription" : "^orange;Compressor^reset;",
+
+
+  "candavaswebberDescription" : "A great way to create soft alloys.",
+
+  "inventoryIcon" : "candacompressoricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "candacompressor.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+[
+  { "op" : "add", "path" : "/speciesOrdering/-", "value" : "webber" },
+  { "op" : "add", "path" : "/speciesOrdering/-", "value" : "candavaswebber" }
+]

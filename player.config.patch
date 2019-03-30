@@ -1,0 +1,6 @@
+[
+  //racial codex
+  { "op" : "add", "path" : "/defaultCodexes/webber", "value" : [ "webberbook1", "webberbookclonemanual" ] },
+  { "op" : "add", "path" : "/defaultCodexes/candavaswebber", "value" : [ "candsdodex0001" ] }
+
+]

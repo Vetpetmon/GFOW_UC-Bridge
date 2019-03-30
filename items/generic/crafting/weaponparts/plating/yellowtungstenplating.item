@@ -1,0 +1,16 @@
+{
+  "itemName": "webbertungstenplatingyellow",
+  "rarity": "common",
+  "price": 200,
+  "category": "webberweaponpart",
+  "inventoryIcon" : "yellowtungstenplating.png",
+  "description" : "For when you want to hide the insides of your gun. ^cyan;For use by Webbers.^white;",
+  "learnBlueprintsOnPickup" : [
+    "webtungsteonhandlegunlargeclipheavyammobarrel",
+    "webtungsteonhandlegunmaxedammo",
+    "webtungsteonhandlegunmediumclip",
+    "webtungsteonhandlegunsmallclip" 
+  ],
+  "shortdescription" : "Yellow Tungsten Plate",
+  "itemTags" : [ "reagent" ]
+}

@@ -1,0 +1,20 @@
+[
+	{
+		"op" : "add",
+		"path" : "/species/webber",
+		"value" : {
+			"aiFrames" : "webberAI.png",
+			"portraitFrames" : "portraits/webberportrait.png",
+			"staticFrames" : "staticwebber.png"
+		}
+	},
+	{
+		"op" : "add",
+		"path" : "/species/candavaswebber",
+		"value" : {
+			"aiFrames" : "candavaswebberAI.png",
+			"portraitFrames" : "portraits/candavaswebberportrait.png",
+			"staticFrames" : "staticcandavaswebber.png"
+		}
+	}
+]

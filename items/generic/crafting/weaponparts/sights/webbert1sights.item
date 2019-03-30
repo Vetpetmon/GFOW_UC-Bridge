@@ -1,0 +1,10 @@
+{
+  "itemName": "webbert1sights",
+  "rarity": "common",
+  "price": 200,
+  "category": "webberweaponpart",
+  "inventoryIcon" : "webbert1sights.png",
+  "description" : "Low-end sights. Doesn't provide much gain in accuracy. ^cyan;For use by Webbers.^white;",
+  "shortdescription" : "Low Quality Sights",
+  "itemTags" : [ "reagent" ]
+}

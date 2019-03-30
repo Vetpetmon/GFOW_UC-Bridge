@@ -1,0 +1,51 @@
+{
+  "objectName" : "webberarmorworkbench",
+  "colonyTags" : [ "webber" ],
+  "rarity" : "Essential",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/webberarmorworkbench.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "DIY Armor Workbench",
+        "subtitle" : "Make stuff for you to wear, but you do it yourself.",
+        "icon" : {
+          "file" : "/interface/crafting/craftingicon.png"
+        }
+      }
+    },
+    "filter" : [ "webberarmorworkbench" ]
+  },
+  "printable" : false,
+  "race" : "webber",
+  "category" : "crafting",
+  "price" : 250,
+  "description" : "Crafts armors and clothing specialized for Webbers.",
+  "subtitle" : "Clothing and armor crafter",
+  "shortdescription" : "^orange;Wooden Clothing Workbench^reset;",
+
+  "apexDescription" : "It's a workbench designed for crafting armors. It's clearly not designed for my use.",
+  "avianDescription" : "This work station is unusual. Do Webbers really craft all of their clothing like this?",
+  "floranDescription" : "Floran doesssn't underssstand the Webber way of crafting clothing.",
+  "glitchDescription" : "Surprised. This is an old and time-consuming way of composing clothing that is still practiced.",
+  "humanDescription" : "I wonder how this works. Making stuff on this would likely be sticky and gross.",
+  "hylotlDescription" : "This is where Webbers turn webbing into masterpieces.",
+  "novakidDescription" : "This is where these spider people make nice clothin' and costumes.",
+  "webberDescription" : "A great place for us to make a new fashion trend! All we've got to do is color and weave the silk together.",
+  "fiiDescription" : "Click click, Blackwalli-related spdierthings use their silk for clothing.",
+
+  "inventoryIcon" : "webberarmorworkbenchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "webberarmorworkbench.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

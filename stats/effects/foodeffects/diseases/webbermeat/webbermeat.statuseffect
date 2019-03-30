@@ -1,0 +1,14 @@
+{
+  "name" : "webbermeat",
+
+  "effectConfig" : {
+  },
+  "defaultDuration" : 6,
+
+  "scripts" : [
+    "webbermeat.lua"
+  ],
+
+  "label" : "Plagued Food",
+  "icon" : "/interface/statuses/plaguegreen.png"
+}

@@ -1,0 +1,49 @@
+{
+  "objectName" : "webbercaptainschair",
+  "colonyTags" : ["webber"],
+  "itemTags" : ["captainschair"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "loungeable",
+  "description" : "The Captain sits here to fly the ship.",
+  "shortdescription" : "Webber's Captain's Chair",
+  "race" : "webber",
+  "category" : "furniture",
+  "apexDescription" : "Just looking at this dated and poorly kept chair makes me want to put shame on the captain for not taking good care of thier ship.",
+  "avianDescription" : "I'd rather keep my feathers clean, thank you.",
+  "floranDescription" : "It ssmellsss of sspiderss and webss.",
+  "glitchDescription" : "Disgusted. It works, but even I will get trapped by it's sticky webbing. It's also manually driven, which makes it even worse.",
+  "humanDescription" : "This captain's chair is disgusting and sticky, but to whoever likes it, it certainly still works, albeit manually driven.",
+  "hylotlDescription" : "Disgusting! It's infested with spiders, and so is this whole ship.",
+  "novakidDescription" : "I can't imagine anyone wanting to sit on this nasty lil' thing.",
+  "webberDescription" : "It's our own homely little chair for using my ship! Thankfully, the only one in the who wide world who wants to sit in this is me.",
+  "inventoryIcon" : "captainschairicon.png",
+  "orientations" : [
+    {
+      "image" : "webbercaptainschair.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "flipImages" : true,
+      "direction" : "left",
+      "sitPosition" : [1.6, 22.5]
+    },
+    {
+      "image" : "webbercaptainschair.png:<color>",
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "direction" : "right",
+      "sitPosition" : [1.6, 22.5]
+    }
+  ],
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/cockpit/cockpit.config",
+  "sitFlipDirection" : false,
+  "soundEffect" : "/sfx/objects/shipengine.ogg",
+  "soundEffectRadius" : 1000
+}

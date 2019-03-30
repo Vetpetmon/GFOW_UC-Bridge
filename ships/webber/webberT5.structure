@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 7
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "webberT5.png",
+      "position" : [8.39, 11.88],
+      "fullbright" : true
+    },
+    {
+      "image" : "webberT5lit.png",
+      "position" : [8.39, 11.88]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "webberT5blocks.png"
+}

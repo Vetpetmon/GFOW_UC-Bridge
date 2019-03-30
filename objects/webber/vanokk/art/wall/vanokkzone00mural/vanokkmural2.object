@@ -1,0 +1,33 @@
+{
+  "objectName" : "webgfowmural2",
+  "colonyTags" : ["webber"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "It's telling a story, but what does it mean?",
+  "shortdescription" : "GFOW Mural",
+  "race" : "webber",
+
+
+  "floranDescription" : "It sssays something, but what?",
+  "glitchDescription" : "Neutral. I can not read this story.",
+
+  "webberDescription" : "However, something we have done may have offended her. Shortly after we started cloning and trying to make purposeful mutations, specifically, trying to find any hints of female genes, Viviana lost her love for us.",
+  "fiiDescription" : "Click, story is not interesting.",
+
+  "inventoryIcon" : "vanokkmuralicon.png",
+  "orientations" : [
+    {
+      "image" : "vanokkmural2.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

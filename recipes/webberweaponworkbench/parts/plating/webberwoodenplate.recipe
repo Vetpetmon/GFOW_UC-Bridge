@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "logblock", "count" : 6 }
+  ],
+  "output" : { "item" : "webberwoodenplate", "count" : 1 },
+  "groups" : [ "webberweaponworkbench", "webberweaponpart" ]
+}

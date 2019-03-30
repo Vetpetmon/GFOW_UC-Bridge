@@ -1,0 +1,101 @@
+{
+  "type" : "webbertenant",
+  "baseType" : "generictenant",
+
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "friendly",
+
+  "dropPools" : [ "webbermeats" ],
+
+  "scriptConfig" : {
+    "behavior" : "villager",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0.2,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common", "tenant"],
+      "enableParticipation" : false,
+      "timeLimit" : 30,
+      "nearbyQuestLimit" : 1,
+      "nearbyQuestRange" : 40,
+      "chance" : 0.01
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "patrol", { "timeRange" : [0.2, 0.6] }],
+        [1.0, "wander"]
+      ]
+    },
+
+    "dialog" : {
+        "tenant" : {
+            "grumbles" : {
+            "tagCriteria" : "/dialog/webberconverse.config:tagCriteria",
+            "enclosedArea" : "/dialog/webberconverse.config:enclosedArea",
+            "otherDeed" : "/dialog/webberconverse.config:otherDeed",
+            "severe" : "/dialog/webberconverse.config:severe",
+            "final" : "/dialog/webberconverse.config:final"
+            },
+        "arrivedHome" : {
+          "beacon" : "/dialog/webberconverse.config:beacon",
+          "rent" : "/dialog/webberconverse.config:rent"
+        }
+      },
+      "flee" : {
+        "helpme" : "/dialog/webberconverse.config:helpme",
+        "safe" : "/dialog/webberconverse.config:safe"
+      },
+        "greeting" : "/dialog/webberconverse.config:greeting",
+        "converse" : "/dialog/webberconverse.config:converse",
+        "accuse" : "/dialog/webberconverse.config:accuse",
+        "alert" : "/dialog/webberconverse.config:alert"
+      }
+    },
+    "items" : {
+        "webber" : [
+            [0,
+                [
+                    {
+                        "chest" : [
+                            { "name" : "webberoutfit1chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit2chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit3chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit4chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ],
+                        "legs" : [
+                            { "name" : "webberoutfit1legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit2legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit3legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit4legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 80.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "objectName" : "webbersilkdoor1",
+  "colonyTags" : [ "webber", "silk", "door" ],
+  "rarity" : "common",
+  "printable" : true,
+  "race" : "webber",
+  "category" : "Door",
+  "price" : 150,
+  "description" : "A curtain of Webber silk. It's strong and thick enough to keep all of the bad stuff out.",
+  "shortdescription" : "Silk Curtain",
+
+  "apexDescription" : "It's a hidious way to keep the weather out.",
+  "avianDescription" : "My fathers are going to stick onto this curtain!",
+  "floranDescription" : "Sssilk made into a thick curtain.",
+  "glitchDescription" : "Observant. This is a curtain of unusual silk.",
+  "humanDescription" : "No thanks, I bet there's more just silk beyond this door. Oh, and maybe a spider or two.",
+  "hylotlDescription" : "Interesting... These curtains are perfectly tailored for this entrance.",
+  "novakidDescription" : "It's a sticky curtain. These guys seem quite proud of their own silk, it seems.",
+  "webberDescription" : "I'd use this as a towel, but doors are important as well.",
+  "fiiDescription" : "Click, primitive door design.",
+
+  "inventoryIcon" : "silkdoor1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "silkdoor1.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/objects/wired/door/door.lua" ],
+  "scriptDelta" : 5,
+
+  "animation" : "/objects/wired/door/door.animation",
+  "animationCustom" : {
+    "sounds" : {
+      "open" : {
+        "pool" : [ "/sfx/objects/bed_leave.ogg" ],
+        "rangeMultiplier" : 0.5
+      },
+      "close" : {
+        "pool" : [ "/sfx/objects/bed_leave.ogg" ],
+        "rangeMultiplier" : 0.5
+      }
+    }
+  },
+  "animationParts" : {
+    "door" : "silkdoor1.png"
+  },
+  "animationPosition" : [-16, 0],
+
+  "inputNodes" : [ [0, 4] ],
+  "outputNodes" : [ [0, 0] ]
+}

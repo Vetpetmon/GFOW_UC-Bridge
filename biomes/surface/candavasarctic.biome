@@ -1,0 +1,48 @@
+{
+  "name" : "candavasarctic",
+  "friendlyName" : "Candavasian Arctic",
+  "statusEffects" : [ "biomeanomaly1" ],
+  "hueShiftOptions" : [0],
+
+  "weather" : [
+    [0, [
+      "/weather.config:tundra"
+    ]]
+  ],
+
+"skyOptions" : [
+    {
+      "mainColor" : [175, 105, 150],
+
+      "morningColors" : [ [100, 167, 152], [255, 163, 208] ],
+      "dayColors" : [ [155, 155, 185], [243, 205, 193] ],
+      "eveningColors" : [ [151, 186, 235], [247, 73, 121] ],
+      "nightColors" : [ [10, 20, 0, 60], [70, 20, 0, 160] ],
+
+      "morningLightColor" : [155, 156, 149],
+      "dayLightColor" : [187, 184, 182],
+      "eveningLightColor" : [137, 98, 126],
+      "nightLightColor" : [10, 9, 9]}
+],
+"musicTrack" : {
+  "day" : {
+    "tracks" : [ "/music/epsilon-indi.ogg", "/music/hymn-to-the-stars.ogg", "/music/procyon.ogg", "/music/stellarformation.ogg", "/music/vast-immortal-suns.ogg", "/music/atlas.ogg", "/music/blue-straggler.ogg", "/music/cygnus-x1.ogg", "/music/europa.ogg", "/music/arctic-exploration1.ogg", "/music/arctic-exploration2.ogg", "/music/haiku.ogg", "/music/m54.ogg", "/music/on-the-beach-at-night.ogg" ]
+  },
+  "night" : {
+    "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+  }
+},
+"surfacePlaceables" : {
+  "grassMod" : [ "snow" ],
+  "grassModDensity" : 1
+},
+"parallax" : "/parallax/surface/candavasarctic.parallax",
+"ambientNoises" : {
+  "day" : {
+    "tracks" : [ "/sfx/environmental/tundra_day.ogg" ]
+  },
+  "night" : {
+    "tracks" : [ "/sfx/environmental/tundra_night.ogg" ]
+  }
+}
+}

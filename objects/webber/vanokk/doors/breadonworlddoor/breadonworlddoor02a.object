@@ -1,0 +1,44 @@
+{
+  "objectName" : "webbreadonworlddoor02a",
+  "colonyTags" : [ "webber", "vanokk", "breadonworld" ],
+  "rarity" : "common",
+  "printable" : false,
+  "race" : "webber",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "The door to a building.",
+  "shortdescription" : "Breadon World Door",
+  "lightColor" : [40, 40, 40],
+
+  "webberDescription" : "A push or a pull on this door works either way. At least that's what other species can't understand.",
+  "fiiDescription" : "Click, this is the door to a restaurant.",
+
+  "neonguetDescription" : "Glass doors are popular in webber architcture.",
+  "sharakoDescription" : "This door could use see-through plastics instead of glass.",
+
+  //ERM support
+
+  "aegiDescription" : "This is a door. What's odd is that it opens in both ways instead of one. Odd.",
+  "avikanDescription" : "This door looks like it should slide. It does not.",
+  "trinkDescription" : "It's a door mostly composed of glass.",
+  "drodenDescription" : "Analysis. A glass door that does not slide. Push or pull.",
+
+  "inventoryIcon" : "trailerparkdooricon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "breadonworlddoor.png:<color>", "fullbright" : true }, { "image" : "breadonworlddoorlit.png:<color>" } ],
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "detectArea" : [ [-3, 0], [3, 16] ]
+    }
+  ],
+  "scripts" : [ "/objects/webber/vanokk/doors/breadonworlddoor/door.lua" ],
+  "scriptDelta" : 20,
+  "destination" : "InstanceWorld:vanokkunderzone02a"
+  //"vanishTime" : 15 - Do not want
+}

@@ -1,0 +1,17 @@
+{
+"wildwebling" : [
+  [1, {
+    "pool" : [
+      {"weight" : 0.2, "item" : "questionablemeatwebber"}
+    ]
+  } ]
+],
+"wildweblinghunting" : [
+  [1, {
+    "pool" : [
+      {"weight" : 0.8, "item" : "questionablemeatwebber"},
+      {"weight" : 0.2, "item" : ["webwebbereye", 8]}
+    ]
+  } ]
+]
+}

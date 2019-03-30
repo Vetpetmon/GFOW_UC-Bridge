@@ -1,0 +1,12 @@
+[
+	[
+		{
+			"op": "add",
+			"path": "/SBTGFOW",
+			"value": {
+        		"image" : "/zb/updateInfoWindow/gfowtitle.png",
+        		"file" : "/_GFOWversioning.config"
+        	}
+		}
+	]
+]

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "copperore", "count" : 12 },
+    { "item" : "coalore", "count" : 2 },
+    { "item" : "webberspidersilk", "count" : 1 }
+  ],
+  "output" : { "item" : "webberammoclipsmall", "count" : 1 },
+  "groups" : [ "webberweaponworkbench", "webberweaponpart" ]
+}

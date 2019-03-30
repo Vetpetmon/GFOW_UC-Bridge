@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "webberwoodenstick", "count" : 2 },
+    { "item" : "cobblestonematerial", "count" : 10 },
+    { "item" : "plantfibre", "count" : 20 }
+  ],
+  "output" : { "item" : "webbert1spear", "count" : 1 },
+  "groups" : [ "webberweaponworkbench", "webberweapon" ]
+}

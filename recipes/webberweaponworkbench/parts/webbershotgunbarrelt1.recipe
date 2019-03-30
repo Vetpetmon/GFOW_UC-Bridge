@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 3 },
+    { "item" : "coalore", "count" : 1 },
+    { "item" : "cobblestonematerial", "count" : 2 },
+    { "item" : "logblock", "count" : 1 },
+    { "item" : "webberspidersilk", "count" : 1 }
+  ],
+  "output" : { "item" : "webbershotgunbarrelt1", "count" : 1 },
+  "groups" : [ "webberweaponworkbench", "webberweaponpart" ]
+}

@@ -1,0 +1,10 @@
+{
+  "itemName": "webberammoclipmedium",
+  "rarity": "common",
+  "price": 200,
+  "category": "webberweaponpart",
+  "inventoryIcon" : "webberammoclipsmall.png",
+  "description" : "A decent-sized ammo clip for more bigger guns. ^cyan;For use by Webbers.^white;",
+  "shortdescription" : "Medium Ammo Clip",
+  "itemTags" : [ "reagent" ]
+}

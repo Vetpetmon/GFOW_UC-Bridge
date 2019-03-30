@@ -1,0 +1,49 @@
+
+{
+  "itemName" : "candacandyaxe",
+  "price" : 540,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "Axes chop things up. This one just happens to be for chopping your annoying neighbor in half while still looking nice.",
+  "shortdescription" : "Candy Axe",
+  "tooltipKind" : "sword",
+  "category" : "axe",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","axe"],
+  "level" : 2,
+  "inventoryIcon" : "candyaxe.png",
+  "animation" : "/items/active/weapons/melee/axe/axe.animation",
+  "animationParts" : {
+    "blade" : "candyaxe.png",
+    "handle" : ""
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "swoosh" : { "properties" : {
+      "offset" : [-0.5, 1.75]
+    }}}},
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_axe.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+
+  "primaryAbilityType" : "axecleave",
+  "primaryAbility" : {
+    "fireTime" : 0.55,
+    "baseDps" : 14.95,
+
+    "damageConfig" : {
+      "statusEffects" : [ "sugarinfection" ],
+      "knockback" : 20,
+      "knockbackMode" : "facing"
+    }
+  },
+  "critChance" : 2,
+  "critBonus" : 6,
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

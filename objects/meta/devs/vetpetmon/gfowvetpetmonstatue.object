@@ -1,0 +1,32 @@
+{
+  "objectName" : "gfowvetpetmonstatue",
+  "colonyTags" : [ "decorative" ],
+  "rarity" : "legendary",
+  "printable" : false,
+  "race" : "neutral",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "It's a statue of Vetpetmon and her test characters that got lost in errors. It reads \"The person insane enough to make 90% of this mod\".",
+  "shortdescription" : "Vetpetmon Statue",
+  "health" : 100,
+
+  "floranDescription" : "It's a ssstatue of Vetpetmon and her test charactersss.  It readsss \"The person insane enough to make 90% of thisss mod\".",
+  "glitchDescription" : "Statement. It's a statue of Vetpetmon and her test characters.  It reads \"The person insane enough to make 90% of this mod\".",
+  "novakidDescription" : "It'sa statue of Vetpetmon and 'er test characters.  It reads \"The person insane enough to make 90% of this mod\".",
+  "fiiDescription" : "Click click, statue of Vetpetmon and some of her unfortinate victims.  It reads \"The person insane enough to make 90% of this mod\".",
+
+  "inventoryIcon" : "gfowvetpetmonstatueicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "gfowvetpetmonstatue.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+  }

@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "titaniumbar", "count" : 1 },
+    { "item" : "smallbattery", "count" : 1 },
+    { "item" : "webberspidersilk", "count" : 20 },
+    { "item" : "wire", "count" : 5 }
+  ],
+  "output" : { "item" : "webbershiphatch", "count" : 1 },
+  "groups" : [ "craftingfurniture2", "doors", "all" ]
+}

@@ -1,0 +1,53 @@
+{
+  "objectName" : "webbreadonworldsign",
+  "colonyTags" : ["webber", "light", "breadonworld"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 400,
+  "printable" : false,
+  "lightColor" : [124, 88, 26],
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.95,
+  "flickerMaxIntensity" : 1,
+  "flickerPeriodVariance" : 0.075,
+  "flickerIntensityVariance" : 0.025,
+
+  "description" : "A well-lit sign to brag about some weird bread-like vegetable being for sale.",
+  "shortdescription" : "Breadon World Lit Sign",
+  "race" : "webber",
+
+  "apexDescription" : "This is a very well-lit sign. However, my translator can not recogninze the text on this logo.",
+  "avianDescription" : "I'm guessing holds of breadons seem to be popular enough that they've made restaurants featuring them. Weird.",
+  "floranDescription" : "Floran hasss no interessst in weird plant food.",
+  "glitchDescription" : "Astonished. Breadon seems to be something the webbers seem to like.",
+  "humanDescription" : "Maybe I should try some breadon. At least it's one of the few things on this planet that isn't loaded with the plague.",
+  "hylotlDescription" : "Now, here's why so many restaurants lure in so many victims!",
+  "novakidDescription" : "Eh, doesn't intrest me. Probably 'cause I dunno Vanokkian.",
+
+  "webberDescription" : "This is a Breadon World restaurant! Breadon is one of the things the federation had exported for millions every orbit. Had. Now here's the only place we'll ever get to have some ever again.",
+  "fiiDescription" : "Click click, sign is in Makurren text. Click, sign says \"Breadon World\".",
+
+  "neonguetDescription" : "This would be better off using neon lights instead.",
+  "sharakoDescription" : "The light pollution this gives off is extrmely low. How depressing.",
+
+  //ERM support
+
+  "aegiDescription" : "This is a sign of a restaurant's logo.",
+  "avikanDescription" : "An odd way to advertise a business.",
+  "trinkDescription" : "It must take a large amount of energy to power this large sign.",
+  "drodenDescription" : "Detected light source with unusual patterns in colors.",
+
+  "inventoryIcon" : "storewindowicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "breadonworldsign.png:<color>", "fullbright" : true }, { "image" : "breadonworldsignlit.png:<color>" } ],
+      "imagePosition" : [-24, -24],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

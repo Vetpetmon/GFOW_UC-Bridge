@@ -1,0 +1,28 @@
+{
+  "objectName" : "webtrailerparkwindow",
+  "colonyTags" : [ "webber", "vanokk" ],
+  "rarity" : "common",
+  "printable" : false,
+  "race" : "webber",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "It's a window of a low-end home in Vanokk.",
+  "shortdescription" : "Trailer window",
+
+  "webberDescription" : "It's a cheaply-made window. Not that it needs to be strong down here.",
+
+  "inventoryIcon" : "trailerparkwindowicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "trailerparkwindow.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

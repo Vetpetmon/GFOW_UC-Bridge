@@ -1,0 +1,19 @@
+{
+	"id" : "webbscodex1",
+	"title" : "Miscommunication Fixes",
+	"description" : "Something's likely being kept from you.",
+	"icon" : "humancover7.png",
+	"contentPages" : [
+    "FROM THE GALACTIC FEDERATION OF WEBBS:
+
+    Nothing is being kept from you, the general public. It seems that a non-sponsored group, dubbed \"The Union of Eights\", is spreading false and harmful information to you.",
+
+    "Simply put, the surface of Vanokk is inhospitable and must be avoided at all costs, to insure your safety, and for the safety of everyone else.",
+
+    "Please ignore \"The Union of Eights\"'s commands or demands, it is simply too risky to go back onto the surface of your homeworld."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

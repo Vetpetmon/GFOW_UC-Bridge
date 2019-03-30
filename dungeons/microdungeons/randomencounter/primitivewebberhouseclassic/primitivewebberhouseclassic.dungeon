@@ -1,0 +1,32 @@
+{
+  "metadata" : {
+    "name" : "primitivewebberhouseclassic",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "classicwebberhouse", "classicwebberfarmhouse" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 5,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "classicwebberhouse",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "classicwebberhouse.json" ]
+    },
+    {
+      "name" : "classicwebberfarmhouse",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "classicwebberfarmhouse.json" ]
+    }
+  ]
+}

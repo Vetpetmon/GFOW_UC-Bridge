@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironbar", "count" : 5 },
+    { "item" : "copperore", "count" : 11 }
+  ],
+  "duration" : 3,
+  "output" : { "item" : "webbersilkcollector", "count" : 1 },
+  "groups" : [ "webberarmorworkbench", "webberarmor" ]
+}

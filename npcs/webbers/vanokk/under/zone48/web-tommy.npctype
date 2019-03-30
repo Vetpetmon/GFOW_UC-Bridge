@@ -1,0 +1,58 @@
+{
+  "type" : "vanokkwebtommy",
+  "baseType" : "base",
+
+  "identity" : {
+    "gender" : "male",
+    //species: arctic
+    "bodyDirectives": "?replace;1a1a1a=969696;171717=e7e7e7;121212=d0d0d0;101010=bcbcbc;222222=c1c1c1;ededed=9fcee3;ffffff=ffffff;00d9d1=d0d0d0;00fff6=e7e7e7;00dc24=e7e7e7;2b943c=d0d0d0;575757=e7e7e7;3b3b3b=e7e7e7",
+    "hairDirectives": "?replace;1a1a1a=969696;171717=e7e7e7;121212=d0d0d0;101010=bcbcbc;222222=c1c1c1;ededed=9fcee3;ffffff=ffffff;00d9d1=d0d0d0;00fff6=e7e7e7;00dc24=e7e7e7;2b943c=d0d0d0;575757=e7e7e7;3b3b3b=e7e7e7",
+    "emoteDirectives": "?replace;1a1a1a=969696;171717=e7e7e7;121212=d0d0d0;101010=bcbcbc;222222=c1c1c1;ededed=9fcee3;ffffff=ffffff;00d9d1=d0d0d0;00fff6=e7e7e7;00dc24=e7e7e7;2b943c=d0d0d0;575757=e7e7e7;3b3b3b=e7e7e7",
+    "species": "webber",
+    "name" : "Tommy Blu"
+  },
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+    "dropPools" : [ ],
+
+  "scriptConfig" : {
+    "behavior" : "simple",
+
+    "behaviorConfig" : {
+      "alwaysRun" : false,
+      "wanderWaitTime" : [4.0, 8.0],
+      "wanderTime" : [0.25, 0.5],
+      "wanderDistance" : 25
+    },
+
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "One of my co-workers, Cory, at the trade center had fallen down from the 33rd floor.",
+            "Everyone's telling us that he is at fault for his own attempt...",
+            "Something, though, with what spectators had said, seems like a bunch of lies.",
+            "Recently, the newspaper says he had escaped the mental hospital and killed off everyone in it, including the patients.",
+            "I'd like to see the security camera footage in both the office and the hospital to send to the Alliance.",
+            "I feel like the Federation is trying to hide something..."
+          ]
+        }
+      }
+    }
+  },
+    "matchColorIndices" : true,
+    "items" : {
+        "override" : [
+            [0,[
+                    {
+                        "chest" : [{ "name" : "webberoutfit4chest", "parameters" : { "colorIndex" : [4] } }],
+                        "legs" : [{ "name" : "webberoutfit1legs", "parameters" : { "colorIndex" : [7] } }]
+                    }
+            ] ]
+        ]
+    }
+  }

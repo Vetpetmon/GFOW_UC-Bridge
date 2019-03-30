@@ -1,0 +1,119 @@
+{
+  "objectName" : "vanokkaccessteleporter",
+  "colonyTags" : ["webber"],
+  "printable" : false,
+  "rarity" : "Essential",
+  "description" : "This teleporter uses some of the most unusual teleportation technology. It's the only known way to hyperbeam in the universe.",
+  "shortdescription" : "Vanokkian Teleporter",
+  "race" : "webber",
+  
+  "apexDescription" : "Vanokkian technology is rather impressive. But so is their habit of making technology using the unsafe power of the atom, too.",
+  "avianDescription" : "A good way to loose feathers, almost.",
+  "floranDescription" : "Floran would ussse odd teleporter if it looked sssafe.",
+  "glitchDescription" : "Disturbed. This teleporter uses unsafe levels of radioactive power.",
+  "humanDescription" : "This teleporter looks fancy! Although I don't it's touchable.",
+  "hylotlDescription" : "The lights on this teleporter aren't for show. They must be power generators to teleport with higher energy frequence than natural.",
+  "novakidDescription" : "This 'ere is one odd teleporter. Somethin' seems fishy about it's tech.",
+
+  "webberDescription" : "This is the only way how we can reach our homeworld once again, but not everyone gets to own a way out of it.",
+  "fiiDescription" : "Click click, this is the 4th most powerful teleporter in the universe.",
+
+  "neonguetDescription" : "There's plenty of ways to hyperbream throughout space. This just happens to be the worst way to do so.",
+  "sharakoDescription" : "Webber technology is too unsafe for other species to use reasonably. NEO will have no interest in this hyperbeam teleporter.",
+
+  //ERM support
+
+  "aegiDescription" : "This teleporter breaks 48 security codes. It shouldn't be touched.",
+  "avikanDescription" : "The energy radiating from the teleporter could alone power a star ship. I wonder why it must use so much power.",
+  "trinkDescription" : "Teleportation should not use this much energy.",
+  "drodenDescription" : "Warning. Highly radioactive power source detected.",
+
+  "category" : "light",
+  "lightColor" : [10, 50, 10],
+  "flickerDistance" : 0.2,
+  "flickerStrength" : 0.2,
+  "flickerTiming" : 4,
+
+  "soundEffect" : "/sfx/objects/hyperbeamtelestatic.ogg",
+
+  "particleEmitter" :
+  /*  {
+      "emissionRate" : 15.0,
+      "emissionVariance" : 0.5,
+      "particle" : {
+        "type" : "animated",
+        "animation" : "/animations/smallcloud/smallpoisoncloud.animation",
+        "position" : [-0.5, 5],
+        "size" : 1.0,
+        //"color" : [64, 12, 255, 0],
+        "light" : [12, 180, 12],
+        "fade" : 0.9,
+        "destructionAction" : "shrink",
+        "destructionTime" : 0.5,
+        "initialVelocity" : [0.0, 5.0],
+        "finalVelocity" : [0.0, 1.0],
+        "approach" : [0, 1],
+        "timeToLive" : 0.6,
+        "layer" : "middle"
+      },
+      "particleVariance" : {
+        "initialVelocity" : [0, 5],
+        //"finalVelocity" : [0, 1]
+        //"position" : [1.5, 0]
+        "size" : 0.5
+      }
+    },*/
+    {
+      "emissionRate" : 10.0,
+      "emissionVariance" : 0.5,
+      "particle" : {
+        "type" : "ember",
+        "position" : [-0.5, 5],
+        "size" : 1.0,
+        "color" : [64, 12, 255, 12],
+        "light" : [12, 180, 12],
+        "fade" : 0.9,
+        "destructionAction" : "shrink",
+        "destructionTime" : 0.5,
+        "initialVelocity" : [0.0, 5.0],
+        "finalVelocity" : [0.0, 1.0],
+        "approach" : [0, 1],
+        "timeToLive" : 0.8,
+        "layer" : "middle"
+      },
+      "particleVariance" : {
+        "initialVelocity" : [0, 5],
+        "finalVelocity" : [0, 1],
+        "position" : [1.5, 0],
+        "size" : 1.0
+      }
+    },
+  "health" : 20,
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : {
+    "canBookmark" : false,
+    "destinations" : [
+      {
+        "name" : "Hyperbeam to",
+        "planetName" : "Vanokk",
+        "mission" : false,
+        "warpAction" : "InstanceWorld:vanokkunderzone48",
+        "icon" : "vanokk"
+      }
+    ],
+    "includePlayerBookmarks" : false
+  },
+  "inventoryIcon" : "vanokkaccessteleportericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "vanokkaccessteleporter.png:<color>", "fullbright" : true }, { "image" : "vanokkaccessteleporterlit.png:<color>" } ],
+      "imagePosition" : [-32, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-2, 0], [-1, 0], [0, 0], [1, 0] ]
+    }
+  ]
+}

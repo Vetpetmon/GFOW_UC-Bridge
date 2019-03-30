@@ -1,0 +1,20 @@
+{
+
+  "name" : "webbersilkgenteir1",
+
+  "effectConfig" : {
+    "refreshWebber" : 120, //Timer in seconds
+    "item" : "webberspidersilk", //Silk earned
+    "amount" : 1, //Amount granted
+    "maxAmount" : 1000,
+    "foodDelta" : 1 //1 = no drain
+  },
+
+  "defaultDuration" : 1,
+	"scriptDelta" : 0,
+
+  "scripts" : [
+    "websilkgen.lua"
+  ]
+
+}

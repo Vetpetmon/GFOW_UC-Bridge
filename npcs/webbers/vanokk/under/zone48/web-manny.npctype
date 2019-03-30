@@ -1,0 +1,55 @@
+{
+  "type" : "vanokkwebmanny",
+  "baseType" : "base",
+
+  "identity" : {
+    "gender" : "male",
+    //species: arctic
+    "bodyDirectives": "?replace;1a1a1a=969696;171717=e7e7e7;121212=d0d0d0;101010=bcbcbc;222222=c1c1c1;ededed=9fcee3;ffffff=ffffff;00d9d1=d0d0d0;00fff6=e7e7e7;00dc24=e7e7e7;2b943c=d0d0d0;575757=e7e7e7;3b3b3b=e7e7e7",
+    "hairDirectives": "?replace;1a1a1a=969696;171717=e7e7e7;121212=d0d0d0;101010=bcbcbc;222222=c1c1c1;ededed=9fcee3;ffffff=ffffff;00d9d1=d0d0d0;00fff6=e7e7e7;00dc24=e7e7e7;2b943c=d0d0d0;575757=e7e7e7;3b3b3b=e7e7e7",
+    "emoteDirectives": "?replace;1a1a1a=969696;171717=e7e7e7;121212=d0d0d0;101010=bcbcbc;222222=c1c1c1;ededed=9fcee3;ffffff=ffffff;00d9d1=d0d0d0;00fff6=e7e7e7;00dc24=e7e7e7;2b943c=d0d0d0;575757=e7e7e7;3b3b3b=e7e7e7",
+    "species": "webber",
+    "name" : "Manny Mark"
+  },
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+    "dropPools" : [ ],
+
+  "scriptConfig" : {
+    "behavior" : "simple",
+
+    "behaviorConfig" : {
+      "alwaysRun" : false,
+      "wanderWaitTime" : [4.0, 8.0],
+      "wanderTime" : [0.25, 0.5],
+      "wanderDistance" : 25
+    },
+
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "",
+            "",
+            ""
+          ]
+        }
+      }
+    }
+  },
+    "matchColorIndices" : true,
+    "items" : {
+        "override" : [
+            [0,[
+                    {
+                        "chest" : [{ "name" : "webberoutfit3chest", "parameters" : { "colorIndex" : [1] } }],
+                        "legs" : [{ "name" : "webberoutfit2legs", "parameters" : { "colorIndex" : [3] } }]
+                    }
+            ] ]
+        ]
+    }
+  }

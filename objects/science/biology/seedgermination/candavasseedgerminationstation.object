@@ -1,0 +1,44 @@
+{
+  "objectName" : "candavasseedgerminationstation",
+  "colonyTags" : [ "candavasian", "laboratory", "science", "biology" ],
+  "rarity" : "Essential",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/candavasseedgerminationstation.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^orange;Germination Lab^reset;",
+        "subtitle" : "Grows seeds from the fruit of plants.",
+        "icon" : {
+          "file" : "/interface/crafting/seedgermination.png"
+        }
+      }
+    },
+    "filter" : [ "candavasseeds" ]
+  },
+  "printable" : false,
+  "race" : "candavaswebber",
+  "category" : "crafting",
+  "price" : 250,
+  "description" : "Obtains new seeds from fruits you already have. ^purple;Specialized in growing Candavasian plants.^reset;",
+  "subtitle" : "Germination Lab",
+  "shortdescription" : "^orange;Germination Lab^reset;",
+
+
+  "candavaswebberDescription" : "The earliest ways how we got more seeds for our crops back in the days.",
+
+  "inventoryIcon" : "candavasseedgerminationstationicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "candavasseedgerminationstation.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

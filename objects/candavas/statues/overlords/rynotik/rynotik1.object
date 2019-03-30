@@ -1,0 +1,32 @@
+{
+  "objectName" : "candarynotikstatue1",
+  "colonyTags" : [ "decorative" ],
+  "rarity" : "legendary",
+  "printable" : false,
+  "race" : "candavaswebber",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "A statue of Rynotik, Lord of Energy, Pet of Rythos.",
+  "shortdescription" : "Rynotik Statue",
+  "health" : 50,
+
+  "floranDescription" : "A ssstatue of Rynotik, Lord of Energy, Pet of Rythosss.",
+  "glitchDescription" : "Statement. A statue of Rynotik, Lord of Energy, Pet of Rythos.",
+  "fiiDescription" : "Click click, a statue of Rynotik, Lord of Energy, Pet of Rythos.",
+  "candavaswebberDescription" : "A statue of Rynotik, the Lord of Energy, Pet of Rythos. He powers the trials, and his blood is made of electricity.",
+
+  "inventoryIcon" : "rynotik1icon.png",
+  "orientations" : [
+    {
+      "dualImage" : "rynotik1.png:<color>",
+
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+  }

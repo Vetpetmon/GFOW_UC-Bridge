@@ -1,0 +1,23 @@
+{
+	"id" : "webberbook1",
+	"title" : "CODENAME: FRIENDS",
+	"description" : "It's your mission, but won't explain your purpose in life.",
+	"icon" : "humancover7.png",
+	"contentPages" : [
+    "This content is to be left top secret. Don't let those without eight legs know of your mission.",
+
+		"By orders of the head of the ^cyan;Galactic Federation of Webbs^white;, you are to visit a current member of the protectorate. ^red;DO NOT HARM YOUR TARGET. IF YOU DO, YOU WILL BE REGARDED AS DEAD TO US.^white;",
+
+		"What you must do is a peace talk, and you MUST keep the peace flag rised at all times. I beg you to not bring any sort of weapon doing so.",
+
+		"This is only to help settle this war they have started between our kind. If you can create an alliance with them, that'll be great.",
+
+		"Oh, and Earth just popped out of our radar for unknown reasons. Investigate that and see if you can also help the Protectorate there. Still, no fighting. Only make friends.",
+
+		"PS: Friend =/= food."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

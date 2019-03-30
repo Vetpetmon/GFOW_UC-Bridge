@@ -1,0 +1,22 @@
+{
+  "config" : {
+    "shipUpgrades" : {
+      "capabilities" : ["teleport", "planetTravel", "systemTravel"],
+      "maxFuel" : 1000,
+      "crewSize" : 12
+    }
+  },
+  "backgroundOverlays" : [
+    {
+      "image" : "candavaswebberT8.png",
+      "position" : [8.39, 1.75],
+      "fullbright" : true
+    },
+    {
+      "image" : "candavaswebberT8lit.png",
+      "position" : [8.39, 1.75]
+    }
+  ],
+  "blockKey" : "blockKey.config:blockKey",
+  "blockImage" : "candavaswebberT8blocks.png"
+}

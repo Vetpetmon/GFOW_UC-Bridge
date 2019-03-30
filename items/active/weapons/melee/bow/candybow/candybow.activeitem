@@ -1,0 +1,48 @@
+{
+  "itemName" : "candacandybow",
+  "price" : 640,
+  "inventoryIcon" : "bowicon.png",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "Helps keep harvests in pristine quality.",
+  "shortdescription" : "Candy Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow"],
+
+  "radioMessagesOnPickup" : [ "pickupbow" ],
+
+  "level" : 2,
+
+  "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : {
+    "bow" : "candybow.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.125, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "damageConfig" : {
+      "statusEffects" : [ "sugarinfection" ]
+    }
+  },
+
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua"
+}

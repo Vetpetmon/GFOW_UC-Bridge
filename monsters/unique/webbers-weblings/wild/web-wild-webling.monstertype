@@ -1,0 +1,233 @@
+{
+  "type" : "webwildwebling",
+  "shortdescription" : "Wild Webling",
+  "description" : "It's an extremely hostile (for it's age) webling that wants to eat your face off.",
+
+  "categories" : [ "webwildwebling" ],
+  "parts" : [ "body" ],
+
+  "animation" : "web-wild-webling.animation",
+
+  "dropPools" : [ { "default" : "wildwebling", "bow" : "wildweblinghunting" } ],
+
+  "baseParameters" : {
+    "scripts" : [
+      "/monsters/monster.lua"
+    ],
+
+    "behavior" : "monster",
+
+    "behaviorConfig" : {
+      "damageOnTouch" : true,
+
+      "targetQueryRange" : 20,
+      "targetOnDamage" : true,
+      "keepTargetInSight" : true,
+      "keepTargetInRange" : 50,
+      "targetOutOfSightTime" : 2.5,
+
+      "foundTargetActions" : [ { "name" : "action-aggrohop" } ],
+
+      "fleeActions" : [],
+
+      "hostileActions" : [
+        {
+          "name" : "action-leap",
+          "cooldown" : 2.0,
+          "parameters" : {
+            "minimumRange" : 5,
+            "maximumRange" : 20,
+            "windupTime" : 0.2,
+
+            "leapVelocity" : 35,
+            "collisionCheck" : true,
+            "highArc" : true,
+            "leapState" : "jump",
+            "fallState" : "fall",
+
+            "winddownTime" : 0
+          }
+        }
+      ],
+
+      "periodicActions" : [],
+
+      "approachActions" : [
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 8,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "minXRange" : 10
+          }
+        }
+      ],
+
+      "followActions" : [
+        {
+          "name" : "approach-teleport",
+          "parameters" : {
+          }
+        },
+        {
+          "name" : "approach-walk",
+          "parameters" : {
+            "canJump" : true,
+            "maxJumps" : 8,
+            "jumpXVelocity" : 12,
+            "jumpYVelocity" : 30,
+            "jumpXControlForce" : 50,
+            "minXRange" : 10
+          }
+        }
+      ],
+
+      "wanderActions" : [
+        {
+          "name" : "wander-walk",
+          "cooldown" : 6.0,
+          "parameters" : {
+            "wanderTime" : 1
+          }
+        }
+      ]
+    },
+
+    "touchDamage" : {
+      "poly" : [ [0.575, 1.0], [0.875, 0.7], [0.875, -0.6], [0.575, -0.9], [-0.575, -0.9], [-0.875, -0.6], [-0.875, 0.7], [-0.575, 1.0] ],
+      "damage" : 1,
+
+      "teamType" : "enemy",
+      "damageSourceKind" : "slash",
+      "knockback" : 2,
+      "statusEffects" : [ ]
+    },
+
+    "metaBoundBox" : [-4, -4, 4, 4],
+    "scale" : 1.0,
+
+    "movementSettings" : {
+      "collisionPoly" : [ [0.575, 1.0], [0.875, 0.7], [0.875, -0.6], [0.575, -0.9], [-0.575, -0.9], [-0.875, -0.6], [-0.875, 0.7], [-0.575, 1.0] ],
+
+      "mass" : 0.8,
+      "walkSpeed" : 20,
+      "runSpeed" : 40,
+
+      "airFriction" : 0,
+
+      "airJumpProfile" : {
+        "jumpSpeed" : 30.0,
+        "jumpInitialPercentage" : 1.0,
+        "jumpHoldTime" : 0.2
+      }
+    },
+
+    "bodyMaterialKind" : "organic",
+
+    "knockoutTime" : 0.3,
+    "knockoutAnimationStates" : {
+      "damage" : "stunned"
+    },
+    "deathParticles" : "deathPoof",
+    "knockoutEffect" : "",
+
+    "statusSettings" : {
+      "statusProperties" : {
+        "targetMaterialKind" : "organic"
+      },
+
+      "appliesEnvironmentStatusEffects" : false,
+      "appliesWeatherStatusEffects" : true,
+      "minimumLiquidStatusEffectPercentage" : 0.1,
+
+      "primaryScriptSources" : [
+        "/stats/monster_primary.lua"
+      ],
+      "primaryScriptDelta" : 5,
+
+      "stats" : {
+        "knockbackStunTime" : {
+          "baseValue" : 0.25
+        },
+        "knockbackThreshold" : {
+          "baseValue" : 1
+        },
+        "maxHealth" : {
+          "baseValue" : 35
+        },
+        "protection" : {
+          "baseValue" : 0.0
+        },
+        "healthRegen" : {
+          "baseValue" : 0.3
+        },
+        "powerMultiplier" : {
+          "baseValue" : 0.6
+        },
+        "physicalResistance" : {
+          "baseValue" : 0.1
+        },
+        "fireResistance" : {
+          "baseValue" : 0.2
+        },
+        "fireStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "iceResistance" : {
+          "baseValue" : -0.4
+        },
+        "iceStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "electricResistance" : {
+          "baseValue" : -0.4
+        },
+        "electricStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "poisonResistance" : {
+          "baseValue" : -0.4
+        },
+        "poisonStatusImmunity" : {
+          "baseValue" : 0.0
+        },
+        "insanityImmunity" : {
+          "baseValue" : 0.0
+        },
+        "biooozeImmunity" : {
+          "baseValue" : 0.0
+        },
+        "sulphuricImmunity" : {
+          "baseValue" : 0.0
+        },
+        "shadowResistance" : {
+          "baseValue" : -0.6
+        },
+        "cosmicResistance" : {
+          "baseValue" : -0.2
+        }
+      },
+
+      "resources" : {
+        "stunned" : {
+          "deltaValue" : -1.0,
+          "initialValue" : 0.0
+        },
+        "health" : {
+          "maxStat" : "maxHealth",
+          "deltaStat" : "healthRegen",
+          "defaultPercentage" : 100
+        }
+      }
+    },
+
+    "mouthOffset" : [0, 0],
+    "feetOffset" : [0, -8],
+    "capturable" : false,
+    "captureHealthFraction" : 0.5,
+    "nametagColor" : [64, 200, 255]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "logblock", "count" : 12 },
+    { "item" : "cobblestonematerial", "count" : 6},
+    { "item" : "plantfibre", "count" : 10 },
+    { "item" : "webberspidersilk", "count" : 4 }
+  ],
+  "output" : {
+    "item" : "webberweaponworkbench",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

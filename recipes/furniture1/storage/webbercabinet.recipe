@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fullwood1", "count" : 25 },
+    { "item" : "webberspidersilk", "count" : 3 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "webbercabinet","count" : 1},
+  "groups" : [ "craftingfurniture", "storage", "all" ]
+}

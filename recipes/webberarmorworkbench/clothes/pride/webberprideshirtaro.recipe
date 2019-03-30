@@ -1,0 +1,13 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 10 },
+    { "item" : "blackdye", "count" : 1 },
+    { "item" : "greydye", "count" : 1 },
+    { "item" : "whitedye", "count" : 1 },
+    { "item" : "greendye", "count" : 2 },
+    { "item" : "webberspidersilk", "count" : 1 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "webberprideshirtaro", "count" : 1 },
+  "groups" : [ "webberarmorworkbench", "webberclothing" ]
+}

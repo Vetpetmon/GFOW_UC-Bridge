@@ -1,0 +1,9 @@
+{
+  "name" : "webwildwebling2",
+  "category" : "webwildwebling",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "web-wild-webling2.png"
+  }
+}

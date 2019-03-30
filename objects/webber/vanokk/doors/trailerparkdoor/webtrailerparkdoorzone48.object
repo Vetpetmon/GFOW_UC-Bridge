@@ -1,0 +1,43 @@
+{
+  "objectName" : "webtrailerparkdoorzone48",
+  "colonyTags" : [ "webber", "vanokk" ],
+  "rarity" : "common",
+  "printable" : false,
+  "race" : "webber",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "It's the door of a low-end home in Vanokk.",
+  "shortdescription" : "Trailer Door",
+
+  "webberDescription" : "It's a cheaply-made metal door. Not that it needs to be strong down here.",
+
+  "inventoryIcon" : "trailerparkdooricon.png",
+  "orientations" : [
+    {
+      "dualImage" : "trailerparkdoor.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "detectArea" : [ [-3, 0], [3, 16] ]
+    }
+  ],
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : {
+    "canBookmark" : false,
+    "destinations" : [
+      {
+        "name" : "Enter",
+        "planetName" : "Trailer",
+        "mission" : false,
+        "warpAction" : "InstanceWorld:vanokkunderzone48a",
+        "icon" : "default"
+      }
+    ],
+    "includePlayerBookmarks" : false
+  }
+  //"vanishTime" : 15 - Do not want
+}

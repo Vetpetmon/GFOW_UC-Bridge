@@ -1,0 +1,42 @@
+{
+  "itemName" : "candacandyshortsword",
+  "price" : 400,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A bright and colorful shortsword.",
+  "shortdescription" : "Candy Shortsword",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+
+  "inventoryIcon" : "candyshortsword.png",
+  "animation" : "/items/active/weapons/melee/shortsword/comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "candyshortsword.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.63,
+    "baseDps" : 7,
+    "damageConfig" : {
+      "statusEffects" : [ "sugarinfection" ]
+    }
+  },
+
+  "critChance" : 2,
+  "critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+}

@@ -1,0 +1,62 @@
+{
+  "objectName" : "webbercabinet",
+  "colonyTags" : [ "webber", "storage" ],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "description" : "A dusty old cabinet. There are spider webs inside.",
+  "shortdescription" : "Webbed Cabinet",
+  "race" : "generic",
+  "category" : "storage",
+  "health" : 1.5,
+  "price" : 300,
+
+  "apexDescription" : "Needs a bit of cleaning.",
+  "avianDescription" : "Webber decoration is a bit... questionable. Why all of the icky webbing?",
+  "floranDescription" : "Floran doesssn't own thisss. Floran isss happy that floran doesss not.",
+  "glitchDescription" : "Neutral. All it needs is cleaning.",
+  "humanDescription" : "Surprisingly, no spiders actually lived in this.",
+  "hylotlDescription" : "There's cobwebs inside. Storing artwork inside would not be a good idea.",
+  "novakidDescription" : "Simple an' well-buit. Needs to be cleaned, however.",
+
+  "webberDescription" : "A safe place to store non-perishables and other stuff.",
+  "fiiDescription" : "Click, contents of this belongs to spiderthing.",
+
+  "inventoryIcon" : "webbercabineticon.png",
+  "orientations" : [
+    {
+      "dualImage" : "webbercabinet.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    },
+    {
+      "dualImage" : "webbercabinet.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "collision" : "platform"
+
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/woodenbox_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/woodenbox_close.ogg" ],
+  "slotCount" : 24,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}

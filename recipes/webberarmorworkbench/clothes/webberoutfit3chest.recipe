@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "fabric", "count" : 20 },
+    { "item" : "webberspidersilk", "count" : 2 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "webberoutfit3chest", "count" : 1 },
+  "groups" : [ "webberarmorworkbench", "webberclothing" ]
+}

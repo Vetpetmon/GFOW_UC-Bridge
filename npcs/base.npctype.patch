@@ -1,0 +1,47 @@
+[
+  { "op" : "add",
+	"path" : "/scriptConfig/chatSounds/legacywebbers",
+	"value" : {
+	  "male" : [
+		"/sfx/humanoid/webber_chatter_male1.ogg",
+		"/sfx/humanoid/webber_chatter_male2.ogg",
+		"/sfx/humanoid/webber_chatter_male3.ogg"
+	  ],
+    "female" : [
+		"/sfx/humanoid/webber_chatter_male1.ogg",
+		"/sfx/humanoid/webber_chatter_male2.ogg",
+		"/sfx/humanoid/webber_chatter_male3.ogg"
+	  ]
+	}
+},
+  { "op" : "add",
+	"path" : "/scriptConfig/chatSounds/webber",
+	"value" : {
+	  "male" : [
+		"/sfx/humanoid/webber_chatter_male1.ogg",
+		"/sfx/humanoid/webber_chatter_male2.ogg",
+		"/sfx/humanoid/webber_chatter_male3.ogg"
+	  ],
+    "female" : [
+		"/sfx/humanoid/webber_chatter_male1.ogg",
+		"/sfx/humanoid/webber_chatter_male2.ogg",
+		"/sfx/humanoid/webber_chatter_male3.ogg"
+	  ]
+	}
+},
+{ "op" : "add",
+"path" : "/scriptConfig/chatSounds/candvaswebber",
+"value" : {
+  "male" : [
+  "/sfx/humanoid/candavaswebberchatter1.ogg",
+  "/sfx/humanoid/candavaswebberchatter2.ogg",
+  "/sfx/humanoid/candavaswebberchatter3.ogg"
+  ],
+  "female" : [
+    "/sfx/humanoid/candavaswebberchatter1.ogg",
+    "/sfx/humanoid/candavaswebberchatter2.ogg",
+    "/sfx/humanoid/candavaswebberchatter3.ogg"
+  ]
+}
+}
+]

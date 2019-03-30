@@ -1,0 +1,36 @@
+{
+  "name" : "vanokkindoors",
+  "friendlyName" : "Vanokk Indoors",
+  "hueShiftOptions" : [0],
+
+//  "weather" : [
+//    [0, [
+//      "/weather.config:forest"
+//    ]]
+//  ]
+"skyOptions" : [
+    {
+      // pitch black
+      "mainColor" : [0, 0, 0],
+
+      "morningColors" : [ [0, 0, 0], [0, 0, 0] ],
+      "dayColors" : [ [0, 0, 0], [0, 0, 0] ],
+      "eveningColors" : [ [0, 0, 0], [0, 0, 0] ],
+      "nightColors" : [ [0, 0, 0, 0], [0, 0, 0, 0] ],
+
+      "morningLightColor" : [0, 0, 0],
+      "dayLightColor" : [0, 0, 0],
+      "eveningLightColor" : [0, 0, 0],
+      "nightLightColor" : [0, 0, 0]
+    }
+],
+"parallax" : "/parallax/surface/vanokkcrystal.parallax",
+"ambientNoises" : {
+  "day" : {
+    "tracks" : [ "/sfx/environmental/arid_underground.ogg" ]
+  },
+  "night" : {
+    "tracks" : [ "/sfx/environmental/arid_underground.ogg" ]
+  }
+}
+}

@@ -1,0 +1,47 @@
+{
+  "objectName" : "candavasarmorworkbench",
+  "colonyTags" : [ "candavasian" ],
+  "rarity" : "Essential",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/candawebberarmorworkbench.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^orange;Candy Armor Workbench^reset;",
+        "subtitle" : "Bittersweet protection.",
+        "icon" : {
+          "file" : "/interface/crafting/craftingicon.png"
+        }
+      }
+    },
+    "filter" : [ "candawebberclothes" ]
+  },
+  "printable" : false,
+  "race" : "candavaswebber",
+  "category" : "crafting",
+  "price" : 250,
+  "description" : "Crafts armors and clothing specialized for Candavasians.",
+  "subtitle" : "Clothing and Armor Crafting",
+  "shortdescription" : "^orange;Candy Armor Workbench^reset;",
+
+  "floranDescription" : "Craftsss ssspecific armors and clothing",
+  "glitchDescription" : "Observant. A station to craft armors and clothing.",
+  "novakidDescription" : "I can craft armors an' clothing here.",
+
+  "candavaswebberDescription" : "All the tools we need to protect ourselves!",
+
+  "inventoryIcon" : "candavasarmorworkbenchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "candavasarmorworkbench.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "type" : "webberfeddofficer1",
+  "baseType" : "base",
+
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "friendly",
+
+  "dropPools" : [ "webbermeats" ],
+
+  "scriptConfig" : {
+    "behavior" : "guard",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0.67,
+      "patrolTime" : 3,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "patrol"]
+      ]
+    },
+
+    "dialog" : {
+      "greeting" : "/dialog/webberfeddofficer1.config:hail",
+      "converse" : "/dialog/webberfeddofficer1.config:converse",
+
+      "attack" : "/dialog/webberfeddofficer1.config:attack",
+      "reattack" : "/dialog/webberfeddofficer1.config:reattack",
+      "killedTarget" : "/dialog/webberfeddofficer1.config:killedTarget",
+      "lostTarget" : "/dialog/webberfeddofficer1.config:lostTarget",
+      "outOfSight" : "/dialog/webberfeddofficer1.config:outOfSight",
+      "cheerOn" : "/dialog/webberfeddofficer1.config:cheerOn",
+      "cantReach" : "/dialog/webberfeddofficer1.config:cantReach",
+
+      "accuse" : "/dialog/webberfeddofficer1.config:accuse"
+      }
+    },
+    "items" : {
+        "webber" : [
+            [0,
+                [
+                    {
+                        "chest" : [
+                            { "name" : "webberofficer1chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ],
+                        "legs" : [
+                            { "name" : "webberofficer1legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ],
+                        "primary" : [ "npcassaultrifle", "webgfowstungunnpc566873529546781" ],
+                        "sheathedprimary" : [ "webberswordupgrade1" ]
+                    }
+                ]
+            ],
+            [1,
+                [
+                    {
+                        "chest" : [
+                            { "name" : "webberofficer1chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ],
+                        "legs" : [
+                            { "name" : "webberofficer1legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ],
+                        "primary" : [ "npcassaultrifle", "webgfowstungunnpc566873529546781" ],
+                        "sheathedprimary" : [ "webbershotgunteir1" ]
+                    }
+                ]
+            ],
+            [2,
+                [
+                    {
+                        "chest" : [
+                            { "name" : "webberofficer1chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ],
+                        "legs" : [
+                            { "name" : "webberofficer1legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ],
+                        "primary" : [ "npcassaultrifle", "webgfowstungunnpc566873529546781" ],
+                        "sheathedprimary" : [ "webbershotgunteir1" ]
+                    }
+                ]
+            ],
+            [3,
+                [
+                    {
+                        "chest" : [
+                            { "name" : "webberofficer1chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ],
+                        "legs" : [
+                            { "name" : "webberofficer1legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ],
+                        "primary" : [ "webgfowstungunnpc566873529546781" ],
+                        "sheathedprimary" : [ "webberswordupgrade2" ]
+                    }
+                ]
+            ]
+        ]
+    },
+    "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 240.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 1.3
+      },
+      "protection" : {
+        "baseValue" : 1.4
+      },
+      "healthRegen" : {
+        "baseValue" : 0.2
+      }
+    }
+  }
+}

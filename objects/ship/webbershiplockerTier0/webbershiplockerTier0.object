@@ -1,0 +1,39 @@
+{
+  "objectName" : "webbershiplockerTier0",
+  "colonyTags" : ["webber","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "A locker. Store some stuff, why don't you?",
+  "shortdescription" : "Ship Locker",
+  "race" : "webber",
+  "lightColor" : [61, 88, 102],
+  "apexDescription" : "The ship's storage system, for storing spiders trapped within it.",
+  "avianDescription" : "A device that holds many items for safe keeping. It's poorly kept.",
+  "floranDescription" : "Sssstorage. It'sss not working.",
+  "glitchDescription" : "Distressed. This ship's storage system is malfunctioning from all of the spiders located within it.",
+  "humanDescription" : "A malfuntioning storage locker. The spiders probably shut it down.",
+  "hylotlDescription" : "This locker needs to be cleaned.",
+  "novakidDescription" : "I don't think this can be fixed.",
+  "webberDescription" : "Why won't it open now?",
+  
+  "inventoryIcon" : "shiplockericonTier0.png",
+  "orientations" : [
+    {
+      "image" : "webbershiplockerTier0.png:<color>.<frame>",
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "animation" : "/objects/noisy/noisy.animation",
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/clickon_error.ogg" ]
+  
+}

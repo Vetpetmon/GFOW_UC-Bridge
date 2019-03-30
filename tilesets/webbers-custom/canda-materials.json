@@ -1,0 +1,77 @@
+{ "columns":0,
+ "margin":0,
+ "name":"canda-materials",
+ "properties":
+    {
+
+    },
+ "spacing":0,
+ "tilecount":6,
+ "tileheight":8,
+ "tileproperties" : {
+   "0" : {
+     "//description" : "A girder made out of rock candy. Not as edible as it looks.",
+     "//name" : "candacandygirder",
+     "//shortdescription" : "Candy Girder",
+     "material" : "candacandygirder"
+   },
+   "1" : {
+     "//description" : "A platform made out of pure sugar.",
+     "//name" : "candacandyplatform",
+     "//shortdescription" : "Candy Platform",
+     "material" : "candacandyplatform"
+   },
+   "2" : {
+     "//description" : "Sugar reed is rich in sugar and is a sturdy building material.",
+     "//name" : "candasugarreedwall",
+     "//shortdescription" : "Sugar Reed Wall",
+     "material" : "candasugarreedwall"
+   },
+   "3" : {
+     "//description" : "Sugar reed is rich in sugar and is a sturdy building material.",
+     "//name" : "candasugarreedsupport",
+     "//shortdescription" : "Sugar Reed Support",
+     "material" : "candasugarreedsupport"
+   },
+   "4" : {
+     "//description" : "Chocolate shaped into bricks.",
+     "//name" : "candachocobricks",
+     "//shortdescription" : "Chocolate Bricks",
+     "material" : "candachocobricks"
+   },
+   "4" : {
+     "//description" : "Chocolate shaped into small bricks.",
+     "//name" : "candachocobricks2",
+     "//shortdescription" : "Small Chocolate Bricks",
+     "material" : "candachocobricks2"
+   }
+ },
+ "tiles":
+    {
+     "0":
+        {
+         "image":"..\/..\/..\/..\/tiled\/gfow\/materials\/candacandygirder.png"
+        },
+     "1":
+        {
+         "image":"..\/..\/..\/..\/tiled\/gfow\/materials\/candacandyplatform.png"
+        },
+     "2":
+        {
+         "image":"..\/..\/..\/..\/tiled\/gfow\/materials\/candachocobricks.png"
+        },
+     "3":
+        {
+         "image":"..\/..\/..\/..\/tiled\/gfow\/materials\/candachocobricks2.png"
+        },
+     "4":
+        {
+         "image":"..\/..\/..\/..\/tiled\/gfow\/materials\/candasugarreedsupport.png"
+        },
+     "5":
+        {
+         "image":"..\/..\/..\/..\/tiled\/gfow\/materials\/candasugarreedwall.png"
+        }
+    },
+ "tilewidth":8
+}

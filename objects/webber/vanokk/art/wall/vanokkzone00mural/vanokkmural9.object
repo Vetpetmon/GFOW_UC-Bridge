@@ -1,0 +1,33 @@
+{
+  "objectName" : "webgfowmural9",
+  "colonyTags" : ["webber"],
+  "rarity" : "Common",
+  "category" : "decorative",
+  "price" : 0,
+  "printable" : false,
+
+  "description" : "It's telling a story, but what does it mean?",
+  "shortdescription" : "GFOW Mural",
+  "race" : "webber",
+
+
+  "floranDescription" : "It sssays something, but what?",
+  "glitchDescription" : "Neutral. I can not read this story.",
+
+  "webberDescription" : "With how worse everything on the surface is getting much faster than our race can get it's grip back onto hope, the corruption has been leaking down into our only home that's left.",
+  "fiiDescription" : "Click, story is not interesting.",
+
+  "inventoryIcon" : "vanokkmuralicon.png",
+  "orientations" : [
+    {
+      "image" : "vanokkmural9.png:<color>",
+      "imagePosition" : [0, 0],
+      "frames" : 1,
+      "animationCycle" : 0.5,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+
+    }
+  ]
+}

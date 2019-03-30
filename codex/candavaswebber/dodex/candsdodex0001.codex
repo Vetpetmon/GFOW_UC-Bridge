@@ -1,0 +1,25 @@
+{
+	"id" : "candsdodex0001",
+	"title" : "DODEX #0001",
+	"description" : "It's a religious piece of Candavasian literature. It has a story to tell.",
+	"icon" : "candsdodex.png",
+	"contentPages" : [
+    "By far have we have advanced beyond fear of the god's wraths, but we are still hindered by Them. The stars watch us from impossible, unbelieveable distances, yet their powers are so close to us.",
+
+		"We are the Candavasians. Chosen by the gods. Chosen by the stars. Our duty is not just to live by fight or flight, but to live by them, to understand the land we can not truly reach.",
+
+		"For many generations, we have feared Rythos, Creator of Candavas. Flavor by flavor, fight by fight, flight by flight, our ancestors lived in underground burrows, in fear.
+
+		There, on the surface, was the constant threat of Lucy looming over. Her kicks swift as electricity, with the force of a thousand waves, no mortal creature could stand a chance against her.",
+
+		"Lucy, Pet of Rythos, Ultimate Selector, had destroyed all other sapient civilizations, her motives completely unknown. Everything that had breathed at this age of our world dreaded her.
+
+		She has destroyed countless populations, always winning the battle. However, it was upon the very day when our people discovered the secret to song, when things changed.",
+
+		"Our very last standing ancestors sung the song. And thus, we had passed the Ultimate Selection. Lucy did not want a war-speaking race to walk this world, but she wanted one of peace, of creativity. Of unity."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

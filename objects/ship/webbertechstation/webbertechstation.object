@@ -1,0 +1,62 @@
+{
+  "objectName" : "webbertechstation",
+  "colonyTags" : ["webber"],
+  "printable" : false,
+  "rarity" : "Common",
+  "interactAction" : "OpenAiInterface",
+  "category" : "decorative",
+  "lightColor" : [61, 88, 102],
+  "lightPosition" : [-1, 0],
+  "description" : "An outdated Ship-based Artificial Intelligence Lattice module.",
+  "shortdescription" : "S.A.I.L",
+  "race" : "webber",
+  "apexDescription" : "Should I update this SAIL?",
+  "avianDescription" : "That is one ugly spiderthing, and I thought I've I've seen worse.",
+  "floranDescription" : "Floran doessn't like sstrange ssix-legged arachnid.",
+  "glitchDescription" : "Dissapointed, it's outdated so far that I can't use it.",
+  "humanDescription" : "I have arachnophobia, and this SAIL is not helping with that.",
+  "hylotlDescription" : "I don't see any beauty in this SAIL.",
+  "novakidDescription" : "This SAIL system is far beyond dated.",
+  "webberDescription" : "It's Viviana!",
+  "inventoryIcon" : "webbertechstationicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "webbertechstation.png:<color>.<frame>", "fullbright" : true }, { "image" : "webbertechstationlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 32,
+      "animationCycle" : 3.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "offeredQuests" : [ "gaterepair" ],
+  "animation" : "/objects/ship/techstation.animation",
+  "scripts" : [
+    "/objects/spawner/techstation.lua",
+    "/stagehands/radiomessage.lua"
+  ],
+  "scriptDelta" : 20,
+  "shipPetType" : "petskutzer",
+  "spawnOffset" : [2, -1],
+  "chatPortrait" : "/ai/portraits/webberportrait.png:yell.1",
+  "broadcastArea" : [-5, -5, 5, 5],
+  "radioMessages" : ["latemessage1", "latemessage1a", "latemessage1b", "latemessage1c", "latemessage1d", "latemessage1e", "latemessage1f", "latemessage1g", "latemessage1h"],
+  "dialog" : {
+    "wakeUp" : [
+      [ "Rebooting...", "/ai/portraits/webberportrait.png:unique.1" ],
+      [ "I am S.A.I.L, your Ship-based Artificial Intelligence Lattice. I manage the maintainance of your ship.", "/ai/portraits/webberportrait.png:talk.0" ],
+      [ "I am also programmed to offer you information and advice.", "/ai/portraits/webberportrait.png:talk.1" ],
+      [ "Earth was attacked by an unknown force, and was subsequently annihilated.", "/ai/portraits/webberportrait.png:talk.0" ],
+      [ "The ship's navigation systems were damaged in our escape. Our location is currently unknown.", "/ai/portraits/webberportrait.png:talk.1" ]
+    ],
+    "wakePlayer" : [
+      [ "System is down, please reboot.", "/ai/portraits/webberportrait.png:unique.1"],
+      [ "Please reboot the system.", "/ai/portraits/webberportrait.png:unique.1"],
+      [ "Reboot process remains uninitiated.", "/ai/portraits/webberportrait.png:unique.1"],
+      [ "To make use of your S.A.I.L please reboot.", "/ai/portraits/webberportrait.png:unique.1" ],
+      [ "Rebooting has shown to improve ship interaction satisfaction levels by 73%.", "/ai/portraits/webberportrait.png:unique.1"],
+      [ "Rebooting requires a conscious entity to interact with the S.A.I.L console.", "/ai/portraits/webberportrait.png:unique.1" ]
+    ]
+  },
+  "uniqueId" : "techstation"
+}

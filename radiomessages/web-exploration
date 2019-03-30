@@ -1,0 +1,36 @@
+{//webMonolithScan1, UNUSED
+"webMonolithScan1" : {
+    "type" : "tutorial",
+    "text" : "Scanning... Signal is too weak. Please move closer to the object.",
+    "textSpeed" : 40,
+    "persistTime" : 9.0
+},
+"webMonolithScan2" : {
+    "type" : "tutorial",
+    "text" : "There's not much that can be understood of this object. However, I have picked up traces of an unknown race and stores of webber DNA.",
+    "textSpeed" : 70,
+    "persistTime" : 8.0
+},
+"webMonolithScan3" : {
+    "type" : "tutorial",
+    "text" : "Scans finalized. This appears to be a monolith that is creating webbers with the DNA reserves stored inside of it. However, it is not creating them correctly, resulting in mutations. Proceed to the surrounding area with caution.",
+    "textSpeed" : 70,
+    "persistTime" : 13.0
+},
+
+//Candavas-level anomaly effect
+"candawarningtier1anomaly" : {
+    "unique" : false,
+    "text" : "^red;WARNING:^reset; There are extreme amounts of foreign particles detected in the air. These particles are only defined in my databank as \"magic.\" I recommend leaving this planet now.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 80
+    "persistTime" : 13.0
+},
+"candawarningtier2anomaly" : {
+    "unique" : false,
+    "text" : "^red;WARNING:^reset; It appears that the particles being introduced to your body is beginning to cause severe brain damage. Please get rid of the affected organs in order to recover from any damages.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 80
+    "persistTime" : 13.0
+}
+}

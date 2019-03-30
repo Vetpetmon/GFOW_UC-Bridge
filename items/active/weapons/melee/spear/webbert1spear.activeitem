@@ -1,0 +1,53 @@
+{
+  "itemName" : "webbert1spear",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "^cyan;If all else fails, add more stuff onto it and try again.^reset;
+  ^red;Still a primitive hunting weapon^reset;",
+  "shortdescription" : "Improved Primitive Spear",
+  "radioMessagesOnPickup" : [ "PickupWebbert1spear" ],
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+
+  "inventoryIcon" : "webbert1spear.png",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "webbert1spear.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : [
+  "/items/active/weapons/melee/meleeweapon.lua"
+  ],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : [],
+
+    "fireTime" : 0.5,
+    "baseDps" : 10.0,
+    "damageConfig" : {
+      "damageSourceKind" : "bow",
+      "statusEffects" : [ ],
+      "knockback" : 20
+    }
+  },
+
+  //FU crit stats
+  "critChance" : 2,
+  "critBonus" : 3,
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

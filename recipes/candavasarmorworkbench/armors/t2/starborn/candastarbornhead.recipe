@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "kyroxblacklico", "count" : 8 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "candastarbornhead", "count" : 1 },
+  "groups" : [ "candawebberarmor", "candawebberclothes", "all" ]
+}

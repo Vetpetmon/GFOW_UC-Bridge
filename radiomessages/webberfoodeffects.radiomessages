@@ -1,0 +1,20 @@
+{
+  "webbermeatillness" : {
+    "unique" : false,
+    "text" : "You realize that you've just invited millions of different parasites, fungi, and plagues into your body. These are deadly. All of them. You are going to die shortly.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  "gfowlorumsickness" : {
+    "unique" : false,
+    "text" : "An unknown pathogen has entered your body, and from scans, I can calculate that you have a 99% chance of dying. Good luck.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  },
+  "gfowlorumsicknesswebbers" : {
+    "unique" : false,
+    "text" : "Lorum Fungus is a highly resistant virus capable of destroying your bichoholus, which is the organ that keeps food-borne illnesses dormant, which will certainly kill you, if you aren't eaten alive by others mistaking you as dead.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "webberlaminatedwoodenstick", "count" : 2 },
+    { "item" : "moonstone", "count" : 15 },
+    { "item" : "venomsample", "count" : 18 },
+    { "item" : "webberspidersilk", "count" : 6 },
+    { "item" : "cellmatter", "count" : 6 },
+    { "item" : "greenslime", "count" : 12 }
+  ],
+  "output" : { "item" : "webberswordupgrade2", "count" : 1 },
+  "groups" : [ "webberweaponworkbench", "webberweapon" ]
+}

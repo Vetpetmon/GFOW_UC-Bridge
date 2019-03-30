@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "kyroxblacklico", "count" : 4 }
+  ],
+  "duration" : 5,
+  "output" : { "item" : "candavaswebberoutfit1chest", "count" : 1 },
+  "groups" : [ "candawebberclothing", "candawebberclothes", "all" ]
+}

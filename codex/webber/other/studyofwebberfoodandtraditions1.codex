@@ -1,0 +1,21 @@
+{
+	"id" : "studyofwebberfoodandtraditionsentry1",
+	"title" : "The Study of Webber Culture - 1",
+	"description" : "Information that failed to make it into the Great Encyclopedia of the Universe.",
+	"icon" : "humancover7.png",
+	"contentPages" : [
+    "Webber culture is rather similar to humans, except that in some areas, they're horrifically reversed.",
+    "Webbers do not bury their fallen, but instead, eat them, saving the bones for other uses later, such as for \"reminder stands\" or small statues.",
+    "Their Bible is about a female of their species, speaking of how the goddess, whose name is still highly debated, is the only female of their kind, and is the source of their entire race's genetics.
+    It also specifically states that if it was ever possible, if two webbers were to mate with each other, it would certainly be interbreeding.",
+    "Webbers of Vanokk worship their homeworld, cherishing it as the gift of their goddes, and will go to as far as delcaring war if another species was to damage or pollute it in some sort of way.
+    Despite how this could cause a civil war[1], no wars of that category have ever happened, as it seems all webbers themselves refuse to damage their own homeworld.",
+    "Webbers celebrate holidays like other races do, but as noted on other planets with primitive ones, they can become indescribably wild[2].",
+    "[1] A war in which members of the same species fight against each other. Not to be confused with the Civil War from planet Earth.
+    [2] Explicit content that is not allowed to be discused in the galactic community."
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

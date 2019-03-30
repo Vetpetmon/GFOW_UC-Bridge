@@ -1,0 +1,33 @@
+{
+  "objectName" : "webbreadonworldwindow1",
+  "colonyTags" : [ "webber", "vanokk", "breadonworld" ],
+  "rarity" : "common",
+  "printable" : false,
+  "race" : "webber",
+  "category" : "decorative",
+  "price" : 0,
+  "description" : "A window.",
+  "shortdescription" : "Breadon World Window",
+  "lightColor" : [40, 40, 40],
+
+  "webberDescription" : "We can see through this window!",
+  "fiiDescription" : "Click, this is a glass window.",
+
+  "neonguetDescription" : "Glass windows are popular in webber architcture.",
+  "sharakoDescription" : "This window could use see-through plastics instead of glass.",
+
+  "inventoryIcon" : "trailerparkdooricon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "breadonworldwindow1.png:<color>", "fullbright" : true }, { "image" : "breadonworldwindow1lit.png:<color>" } ],
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ],
+      "detectArea" : [ [-3, 0], [3, 16] ]
+    }
+  ]
+}

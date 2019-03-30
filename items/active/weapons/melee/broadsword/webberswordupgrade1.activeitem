@@ -1,0 +1,36 @@
+{
+  "itemName" : "webberswordupgrade1",
+  "price" : 100,
+  "level" : 2,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "With a little bit of modification, it's now able to pack a punch! ^cyan;But that's just the beginning...^reset;",
+  "shortdescription" : "Lunar Blade",
+  "radioMessagesOnPickup" : [ "PickupWebberswordupgrade1" ],
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "learnBlueprintsOnPickup" : [ "webberswordupgrade2" ],
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "webberswordupgrade1.png",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "webberswordupgrade1.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.49,
+    "baseDps" : 9
+  },
+
+  //FU crit stats
+  "critChance" : 2,
+  "critBonus" : 2,
+
+  "altAbilityType" : "downstab",
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

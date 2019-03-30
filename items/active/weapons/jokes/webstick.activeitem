@@ -1,0 +1,33 @@
+{
+  "itemName" : "webstick",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "Why'd you make this? This is the worst weapon your brain could ever come up with. ^cyan;Joke weapon from yours truly.^reset;",
+  "shortdescription" : "A Stick",
+  "tooltipKind" : "sword",
+  "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+  "inventoryIcon" : "webstick.png",
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "webstick.png"
+  },
+  "animationCustom" : { },
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  "elementalType" : "physical",
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.3,
+    "baseDps" : 1
+  },
+
+  //FU crit stats
+  "critChance" : 16,
+  "critBonus" : 1,
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

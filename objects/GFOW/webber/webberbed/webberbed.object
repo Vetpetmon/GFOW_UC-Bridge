@@ -1,0 +1,48 @@
+{
+  "objectName" : "webberbed",
+  "colonyTags" : ["webber"],
+  "rarity" : "Common",
+  "description" : "A gross tent-like bed made with webber silk.",
+  "shortdescription" : "Silk Den",
+  "race" : "generic",
+  "category" : "furniture",
+  "price" : 500,
+
+  "apexDescription" : "I'd be stuck in this bed if I were to try to sleep in this. Not in the positive sense.",
+  "avianDescription" : "This looks like a den. Better avoid it.",
+  "floranDescription" : "Looksss like a cacoon.",
+  "glitchDescription" : "Neutral. As long as I'm not in it.",
+  "humanDescription" : "This could be easily mistaken for a tent.",
+  "hylotlDescription" : "At least webber dens are fashionable, I guess...",
+  "novakidDescription" : "Wouldn't even dare sleep in this fora' million pixels.",
+  "webberDescription" : "It's a nice and comfortable silk bed. It keeps the warm air inside of it whenever the entryway is closed, which is a standard in bedding.",
+  "fiiDescription" : "Click, spider den. Clack, used as a bed.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitPosition" : [-5, 7],
+  "sitOrientation" : "lay",
+  "sitAngle" : 90,
+  "sitCoverImage" : "/objects/GFOW/webber/webberbed/webberbedlit.png",
+  "sitEmote" : "sleep",
+  "sitStatusEffects" : [
+    "bed2",
+    "nude",
+    "intents"
+  ],
+
+  "inventoryIcon" : "webberbedicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "webberbed.png:<color>",
+
+      "imagePosition" : [-24, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

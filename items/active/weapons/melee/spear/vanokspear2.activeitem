@@ -1,0 +1,48 @@
+{
+  "itemName" : "vanokspear2",
+  "price" : 300,
+  "level" : 3,
+  "maxStack" : 1,
+  "rarity" : "common",
+  "description" : "A lightweight spear made of steel.",
+  "shortdescription" : "Moon's Tooth",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+  "inventoryIcon" : "vanokspear2.png",
+  "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "vanokspear2.png"
+  },
+  "animationCustom" : {
+    "sounds" : {
+      "fire" : [ "/sfx/melee/swing_spear.ogg" ]
+    }
+  },
+
+  "scripts" : [
+  "/items/active/weapons/melee/meleeweapon.lua"
+  ],
+
+  "elementalType" : "physical",
+
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : [],
+
+    "fireTime" : 0.5,
+    "baseDps" : 8.4,
+    "damageConfig" : {
+      "knockback" : 10
+    }
+  },
+
+  //FU crit stats
+  "critChance" : 4,
+  "critBonus" : 2,
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

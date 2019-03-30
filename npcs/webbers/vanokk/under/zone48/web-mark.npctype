@@ -1,0 +1,56 @@
+{
+  "type" : "vanokkwebmarkwebbs",
+  "baseType" : "base",
+
+  "identity" : {
+    "gender" : "male",
+    //species: common
+    "bodyDirectives": "?replace;1a1a1a=1a1a1a;171717=171717;121212=121212;101010=101010;222222=222222;ededed=ededed;ffffff=ffffff;00d9d1=121212;00fff6=171717;00dc24=171717;2b943c=121212;575757=171717;3b3b3b=171717",
+    "hairDirectives": "?replace;1a1a1a=1a1a1a;171717=171717;121212=121212;101010=101010;222222=222222;ededed=ededed;ffffff=ffffff;00d9d1=121212;00fff6=171717;00dc24=171717;2b943c=121212;575757=171717;3b3b3b=171717",
+    "emoteDirectives": "?replace;1a1a1a=1a1a1a;171717=171717;121212=121212;101010=101010;222222=222222;ededed=ededed;ffffff=ffffff;00d9d1=121212;00fff6=171717;00dc24=171717;2b943c=121212;575757=171717;3b3b3b=171717",
+    "species": "webber",
+    "name" : "Mark Webbs"
+  },
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+    "dropPools" : [ ],
+
+  "scriptConfig" : {
+    "behavior" : "simple",
+
+    "behaviorConfig" : {
+      "alwaysRun" : false,
+      "wanderWaitTime" : [4.0, 8.0],
+      "wanderTime" : [0.25, 0.5],
+      "wanderDistance" : 25
+    },
+
+    "dialogMode" : "sequence",
+    "dialog" : {
+      "converse" : {
+        "default" : {
+          "default" : [
+            "Have you found better ways to grow plants underground?",
+            "Artificial light sources can only do so much...",
+            "It's hard to grow most plants without any natural sunlight.",
+            "However, our job is so important that if our work was to be ignored, we'd all die down here."
+          ]
+        }
+      }
+    }
+  },
+    "matchColorIndices" : true,
+    "items" : {
+        "override" : [
+            [0,[
+                    {
+                        "chest" : [{ "name" : "webberoutfit4chest", "parameters" : { "colorIndex" : [4] } }],
+                        "legs" : [{ "name" : "webberoutfit1legs", "parameters" : { "colorIndex" : [10] } }]
+                    }
+            ] ]
+        ]
+    }
+  }

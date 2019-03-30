@@ -1,0 +1,49 @@
+{
+  "objectName" : "flagwebber",
+  "colonyTags" : ["webber"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "teleporter",
+  "category" : "teleportMarker",
+  "price" : 70,
+  "radioMessagesOnPickup" : [ "PickupWebberflag" ],
+  "soundEffect" : "/sfx/objects/flag_flap_loop.ogg",
+
+  "description" : "A flag with the face of the common webber breed. It can be set as a one-way teleportation marker via your ship using ^green;[E]^reset;.",
+  "shortdescription" : "Webber Flag",
+  "race" : "webber",
+  "apexDescription" : "What an odd symbol. Is this flag simply just a common webber's face?",
+  "avianDescription" : "This poorly made flag can be bookmarked as a destination for my ship teleporter.",
+  "floranDescription" : "Floran thinksssss whoever made thisss wanted everyone to know their face.",
+  "glitchDescription" : "Observant. A small outdated locator module attached to this flag allows it to be bookmarked for risky teleportation.",
+  "humanDescription" : "What a way to broadcast your identity.",
+  "hylotlDescription" : "I believe that this flag can still be used as a teleportation marker",
+  "novakidDescription" : "Looks like somethin' likes it's own face to be posted for all to see.",
+  "webberDescription" : "It's a flag! We can use this to teleport back to this exact spot!",
+  "fiiDescription" : "Click click, this would be only just one of their many mutations.",
+
+  "interactAction" : "OpenTeleportDialog",
+  "interactData" : "/interface/warping/destinationonly.config",
+  "inventoryIcon" : "flagwebbericon.png",
+  "orientations" : [
+    {
+      "image" : "flagwebber.png:<color>.<frame>",
+      "flipImages" : true,
+      "direction" : "left",
+      "imagePosition" : [-17, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "flagwebber.png:<color>.<frame>",
+      "direction" : "right",
+      "imagePosition" : [1, 0],
+      "frames" : 6,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "logblock", "count" : 1 },
+    { "item" : "liquidoil", "count" : 20 },
+    { "item" : "greenslime", "count" : 1 }
+  ],
+  "output" : { "item" : "webberlaminatedwoodenstick", "count" : 2 },
+  "groups" : [ "webberweaponworkbench", "webberweaponpart" ]
+}

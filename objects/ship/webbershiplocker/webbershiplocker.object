@@ -1,0 +1,38 @@
+{
+  "objectName" : "webbershiplocker",
+  "colonyTags" : ["webber","storage"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "description" : "A locker. Store some stuff, why don't you?",
+  "shortdescription" : "Ship Locker",
+  "race" : "webber",
+  "lightColor" : [61, 88, 102],
+  "apexDescription" : "There's no secrets in this locker, it's acually filled to the brim with spiders and silk.",
+  "avianDescription" : "How could there be anything of value within this locker?",
+  "floranDescription" : "Floran ssearch locker for valuabless and ssilk.",
+  "glitchDescription" : "Disgusted. I can still hear spiders living in this.",
+  "humanDescription" : "A ship locker? More like a spider habitat.",
+  "hylotlDescription" : "Something useful could still be in this.",
+  "novakidDescription" : "It's a locker full of spiders!",
+  "webberDescription" : "We can hide our stuff in this!",
+  "inventoryIcon" : "shiplockericon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "webbershiplocker.png:<color>.<frame>", "fullbright" : true }, { "image" : "webbershiplockerlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-16, -8],
+      "frames" : 8,
+      "animationCycle" : 1.0,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 64,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 11,
+  "autoCloseCooldown" : 3600
+}

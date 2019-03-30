@@ -1,0 +1,20 @@
+{
+  "metadata" : {
+    "name" : "vanokkunderzone48",
+    "species" : "generic",
+    "rules" : [ ],
+    "anchor" : [ "vanokkunderzone48" ],
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 100,
+    "protected" : true
+  },
+
+  "parts" : [
+    {
+      "name" : "vanokkunderzone48",
+      "rules" : [ [ "maxSpawnCount", [1] ] ],
+      "def" : [ "tmx", "vanokk-under-zone-48.json" ]
+    }
+  ]
+}

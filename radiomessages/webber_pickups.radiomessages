@@ -1,0 +1,12 @@
+{
+    //modded items
+
+    "PickupWebberflag" : {
+        "type" : "tutorial",
+        "text" : "This is a flag to boast your presence. Unless if you had some particular reason on your mind to place it here, congratulations! You've just wasted your time and resources."
+    },
+    "silkcollectionstart" : {
+        "type" : "tutorial",
+        "text" : "This is a silk collector. It drains your body's silk supply at an accelerated rate for crafting use. However, it does not speed up natural silk creation."
+    }
+}

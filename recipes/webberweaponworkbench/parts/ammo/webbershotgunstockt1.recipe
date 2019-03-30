@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "ironore", "count" : 1 },
+    { "item" : "logblock", "count" : 1 },
+    { "item" : "webberspidersilk", "count" : 1 }
+  ],
+  "output" : { "item" : "webbershotgunstockt1", "count" : 1 },
+  "groups" : [ "webberweaponworkbench", "webberweaponpart" ]
+}

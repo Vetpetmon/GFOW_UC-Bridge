@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "copperbar", "count" : 1 },
+    { "item" : "webberspidersilk", "count" : 50 }
+  ],
+  "output" : {
+    "item" : "flagwebber",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

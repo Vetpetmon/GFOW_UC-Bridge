@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "moonstone", "count" : 10 },
+    { "item" : "coalore", "count" : 2 },
+    { "item" : "webberspidersilk", "count" : 3 },
+    { "item" : "webberwoodenstick", "count" : 1 }
+  ],
+  "output" : { "item" : "webberswordupgrade1", "count" : 1 },
+  "groups" : [ "webberweaponworkbench", "webberweapon" ]
+}

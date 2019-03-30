@@ -1,0 +1,31 @@
+-----
+CREDITS FOR THOSE WHO HAVE WORKED ON AND HELPED WITH THE DEVELOPMENT OF GFOW
+-----
+
+Making the mod:
+
+Vetpetmon - Sprites, scripts, writing, lore, running the whole AU, and pretty much running the whole entire mod while sacrificing her sanity. Also, the memes.
+C0bra5 - fixes to the silk generation effect.
+ZimberZimber - Helping out with racial exceptions for the silk generation effect. Also, he made Ztarbound.
+Shinigami Apples - Sprites for objects and weapons, code for objects.
+Valo - Sprited Tungsten Handlegun
+TankSlayer2 - Concepts of the AU.
+Arcticcloud - Lore, contributed acceptance of the Candavasians.
+Sky - Sprited the Candy Corn Assault Rifle, Candy knife, and Gumball MACHINE-gun.
+Kherae - Helping out with FR stats and abilities.
+Slugbait - Candavasian Seed Germination Station sprite
+
+Testers:
+Slugbait
+Vetpetmon
+TankSlayer2
+(PLEASE contact Vetpetmon if you have tested GFOW's git build and your name is not on here!)
+
+Special thanks:
+
+GitHub, for hosting pre-release builds of GFOW and helping with catching errors early on.
+The Frackin' Universe mod and community, for helping me out throughout the mod and teaching me how EVERYTHING in Starbound works.
+Cookie Run for some of the memes.
+shadow_absorber, for giving GFOW a home on the FU Starbound server!
+Chucklefish, for making Starbound.
+Klei, for making Don't Starve.

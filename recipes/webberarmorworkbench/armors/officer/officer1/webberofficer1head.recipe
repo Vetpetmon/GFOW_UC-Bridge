@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "webberspidersilk", "count" : 3 },
+    { "item" : "liquidoil", "count" : 3 },
+    { "item" : "ironore", "count" : 8 },
+    { "item" : "cobblestonematerial", "count" : 1 }
+  ],
+  "output" : { "item" : "webberofficer1head", "count" : 1 },
+  "groups" : [ "webberarmorworkbench", "webberarmor" ]
+}

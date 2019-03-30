@@ -1,0 +1,291 @@
+{
+  "kind" : "candavaswebber",
+  "charCreationTooltip" : {
+  "title" : "CANDAVAS WEBBER",
+  "subTitle" : "O2",
+  "description" : "An odd and \"magical\" variation of the webber clones. Sweet and sugary from head to toe, these webbers are made of nothing but sugary ingredients. Their creation has gone completely unknown, and so has the sanity of those who attempt to understand them."
+  },
+  "nameGen" : [ "/species/candavaswebbermalenamegen.config:names", "/species/candavaswebbermalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/candavaswebberhurt.ogg", "/sfx/humanoid/candavaswebberhurt.ogg"],
+    "charGenTextLabels" : [ "Flavor", "Decoration", "Shirt", "Legwear", "Eye Color", "Decoration color", "Shirt color", "Legwear color", "CANDAVASIAN", "Personality" ],
+  "skull" : "/humanoid/webber/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FEFFFFFF?replace=9bd4ffFF=f9c9feFF?replace=31a6ffFF=f074ffFF",
+  "defaultBlueprints" : {
+    "tier1" : [
+
+  // Empty Hands
+      { "item" : "flagcandavaswebber" },
+      { "item" : "candavasarmorworkbench"},
+      { "item" : "candavasseedgerminationstation"},
+      { "item" : "candacompressor"},
+      { "item" : "candavascrusher"},
+      { "item" : "candavaspastebowl"},
+
+// Anvil
+      { "item" : "humantier1head" },
+      { "item" : "humantier1chest" },
+      { "item" : "humantier1pants" },
+      { "item" : "humantier2head" },
+      { "item" : "humantier2chest" },
+      { "item" : "humantier2pants" },
+      { "item" : "ironshortsword" },
+      { "item" : "ironbroadsword" },
+      { "item" : "tungstenaxe" },
+      { "item" : "tungstenhammer" },
+// Anvil2
+      { "item" : "humantier3head" },
+      { "item" : "humantier3chest" },
+      { "item" : "humantier3pants" },
+      { "item" : "humantier4head" },
+      { "item" : "humantier4chest" },
+      { "item" : "humantier4pants" },
+      { "item" : "titaniumdagger" },
+      { "item" : "titaniumspear" },
+      { "item" : "durasteelbroadsword" },
+      { "item" : "durasteelshortsword" },
+// Anvil3
+      { "item" : "humantier5ahead" },
+      { "item" : "humantier5achest" },
+      { "item" : "humantier5apants" },
+      { "item" : "humantier6ahead" },
+      { "item" : "humantier6achest" },
+      { "item" : "humantier6apants" },
+      { "item" : "humantier5mhead" },
+      { "item" : "humantier5mchest" },
+      { "item" : "humantier5mpants" },
+      { "item" : "humantier6mhead" },
+      { "item" : "humantier6mchest" },
+      { "item" : "humantier6mpants" },
+      { "item" : "humantier5shead" },
+      { "item" : "humantier5schest" },
+      { "item" : "humantier5spants" },
+      { "item" : "humantier6shead" },
+      { "item" : "humantier6schest" },
+      { "item" : "humantier6spants" },
+      { "item" : "aegisaltpistol" },
+      { "item" : "aegisaltbow" },
+      { "item" : "feroziumwand" },
+      { "item" : "feroziumstaff" },
+      { "item" : "violiumshortsword" },
+      { "item" : "violiumbroadsword" },
+      // Furniture Table 2
+      { "item" : "humanstoragelocker" },
+      { "item" : "candavaswebbershipdoor" },
+      { "item" : "candavaswebbershiphatch" },
+      // Clothing for armor workbench
+      { "item" : "candavaswebberoutfit1chest" },
+      { "item" : "candavaswebberoutfit1legs" },
+      { "item" : "candavaswebberoutfit2chest" },
+      { "item" : "candavaswebberoutfit2legs" },
+      { "item" : "candavaswebberoutfit3chest" },
+      { "item" : "candavaswebberoutfit3legs" },
+      { "item" : "candavaswebberoutfit4chest" },
+      { "item" : "candavaswebberoutfit4legs" }
+	  ]
+  },
+
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "hairColorAsBodySubColor" : true,
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/candavaswebbermaleico.png",
+      "characterImage" : "/interface/title/candavaswebbermale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52" ],
+      "shirt" : [ "candavaswebberoutfit1chest", "candavaswebberoutfit2chest", "candavaswebberoutfit3chest", "candavaswebberoutfit4chest" ],
+      "pants" : [ "candavaswebberoutfit1legs", "candavaswebberoutfit2legs", "candavaswebberoutfit3legs", "candavaswebberoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/candavaswebbermaleico.png",
+      "characterImage" : "/interface/title/candavaswebbermale.png",
+      "hair" : [ "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52" ],
+      "shirt" : [ "candavaswebberoutfit1chest", "candavaswebberoutfit2chest", "candavaswebberoutfit3chest", "candavaswebberoutfit4chest" ],
+      "pants" : [ "candavaswebberoutfit1legs", "candavaswebberoutfit2legs", "candavaswebberoutfit3legs", "candavaswebberoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [ //batch color
+    //ffc181 2nd shade
+    //d39c6c 3rd shade
+    //c7815b 4th shade
+    //No Flavor
+    { "ffc181" : "f4f4f4", "d39c6c" : "cdcdcd", "c7815b" : "ababab" },
+    //Gingerbread
+    { "ffc181" : "c88959", "d39c6c" : "9e6a4d", "c7815b" : "784930" },
+    //Bright Gingerbread
+    { "ffc181" : "cfa767", "d39c6c" : "b18237", "c7815b" : "805e28" },
+    //Milk Chocolate
+    { "ffc181" : "86644a", "d39c6c" : "684431", "c7815b" : "40271d" },
+    //Deep Purple (Candavas regular)
+    { "ffc181" : "3d0f49", "d39c6c" : "2d0b36", "c7815b" : "220829" },
+    //Chocolate
+    { "ffc181" : "502814", "d39c6c" : "3d1f11", "c7815b" : "2f180c" },
+    //Blue Cotton Candy
+    { "ffc181" : "d9efef", "d39c6c" : "bdd7d7", "c7815b" : "aec6c6" },
+    //Pink Cotton Candy
+    { "ffc181" : "f9e5f9", "d39c6c" : "e7cce7", "c7815b" : "c3b0c3" },
+    //Mint
+    { "ffc181" : "eef3ec", "d39c6c" : "dde8da", "c7815b" : "cad7c6" },
+    //Chili Pepper
+    { "ffc181" : "cb420d", "d39c6c" : "b13a0c", "c7815b" : "a2350b" },
+    //Cinnamon
+    { "ffc181" : "835955", "d39c6c" : "5a4a53", "c7815b" : "3f414f" },
+    //Blueberry
+    { "ffc181" : "7c769f", "d39c6c" : "625d7d", "c7815b" : "434057" },
+    //Strawberry
+    { "ffc181" : "EF7674", "d39c6c" : "EC5766", "c7815b" : "DA344D" },
+    //Grape
+    { "ffc181" : "5A426B", "d39c6c" : "352A54", "c7815b" : "080628" },
+    //Forest
+    { "ffc181" : "607744", "d39c6c" : "34623f", "c7815b" : "1e2f23" },
+    //Gum
+    { "ffc181" : "4f7b8a", "d39c6c" : "1e485f", "c7815b" : "063753" },
+    //Pumpkin
+    { "ffc181" : "DC6C29", "d39c6c" : "CB4D35", "c7815b" : "741D13" },
+    //Peppermint
+    { "ffc181" : "f9e9e8", "d39c6c" : "f1bfbe", "c7815b" : "ef7674" },
+    //Lemon
+    { "ffc181" : "fbed04", "d39c6c" : "dcc400", "c7815b" : "b2940e" },
+    //Wasabi
+    { "ffc181" : "9E9E00", "d39c6c" : "708200", "c7815b" : "303800" },
+    //Toothpaste Green
+    { "ffc181" : "19ffab", "d39c6c" : "0ee798", "c7815b" : "08b375" },
+    //Pistachio
+    { "ffc181" : "acc8b0", "d39c6c" : "86b28d", "c7815b" : "66836b" },
+    //Fire Temple
+    { "ffc181" : "4d1e0e", "d39c6c" : "3b190d", "c7815b" : "29150d" },
+    //Ice Temple
+    { "ffc181" : "88a4c1", "d39c6c" : "698aac", "c7815b" : "507194" },
+    //Anomaly 0-0t
+    { "ffc181" : "B0D1CD", "d39c6c" : "98C7C1", "c7815b" : "85BEB7" },
+    //Hot Sauce
+    { "ffc181" : "ef4c13", "d39c6c" : "d04514", "c7815b" : "d01414" }
+  ],
+  "undyColor" : [ //eye color
+    //dc1f00 2nd shade
+    //be1b00 3rd shade
+    { "dc1f00" : "ffffff", "be1b00" : "f4f4f4" }, //White (Gingerbread/milk chocolate)
+    { "dc1f00" : "feffdd", "be1b00" : "f3f4d6" }, //Candavas regular (not saturated yellow)
+    { "dc1f00" : "dbfbd3", "be1b00" : "c6e7bd" }, //Mint
+    { "dc1f00" : "e7dfbd", "be1b00" : "bcad80" }, //Milk
+    { "dc1f00" : "6a3b23", "be1b00" : "40271d" }, //Bright(er) Chocolate
+    { "dc1f00" : "d8fffd", "be1b00" : "9ffff9" }, //Cotton Candy Blue
+    { "dc1f00" : "ffe062", "be1b00" : "ffbe62" }, //Chili Pepper
+    { "dc1f00" : "c0ab5e", "be1b00" : "6b5509" }, //Dark Caramel
+    { "dc1f00" : "80fff2", "be1b00" : "65e1d4" }, //Blueberry
+    { "dc1f00" : "745d3b", "be1b00" : "362000" }, //Chocolate
+    { "dc1f00" : "ac3c10", "be1b00" : "a2350b" }, //Cinnamon
+    { "dc1f00" : "fffca7", "be1b00" : "fff600" }, //Forest
+    { "dc1f00" : "5e5e5e", "be1b00" : "272727" }, //Pumpkin
+    { "dc1f00" : "B8FD99", "be1b00" : "7CF49A" }, //Pistachio
+    { "dc1f00" : "19a20b", "be1b00" : "188a0c" }, //Strawberry
+    { "dc1f00" : "ecd3ff", "be1b00" : "f1bfff" }, //Grape
+    { "dc1f00" : "FFC4A9", "be1b00" : "FF8C7A" }, //Peppermint
+    { "dc1f00" : "b7ffd9", "be1b00" : "7affce" }, //Toothpaste Green
+    { "dc1f00" : "0ee798", "be1b00" : "359a64" }, //Eldritch Teal
+    { "dc1f00" : "b7ffd9", "be1b00" : "62b83c" }, //Hot Sauce
+    { "dc1f00" : "f794f8", "be1b00" : "ff65e7" } //Cottton Candy Pink
+  ],
+  "hairColor" : [ //frosting color
+    //PEPPERMINT
+    { "d9c189" : "f9e9e8", "a38d59" : "f1bfbe", "735e3a" : "ef7674" },
+    //LIGHT RED
+    { "d9c189" : "E86D46", "a38d59" : "D1422E", "735e3a" : "96201B" },
+    //RED
+    { "d9c189" : "CD1C38", "a38d59" : "982441", "735e3a" : "69243F" },
+    //DARK RED
+    { "d9c189" : "ad2716", "a38d59" : "8f1f1b", "735e3a" : "731a1a" },
+    //RUSTY RED
+    { "d9c189" : "BE471B", "a38d59" : "9B2F0C", "735e3a" : "702710" },
+    //Milk Chocolate
+    { "d9c189" : "86644a", "a38d59" : "684431", "735e3a" : "40271d" },
+    //Chocolate
+    { "d9c189" : "502814", "a38d59" : "3d1f11", "735e3a" : "2f180c" },
+    //BROWN
+    { "d9c189" : "7d3c1c", "a38d59" : "4d240b", "735e3a" : "2d1606" },
+    //LIGHT BROWN
+    { "d9c189" : "7f5a39", "a38d59" : "5b3523", "735e3a" : "3b1f15" },
+    //CAKE-ISH BROWN
+    { "d9c189" : "9f6e64", "a38d59" : "7c4f46", "735e3a" : "4d2922" },
+    //DIRTY ORANGE
+    { "d9c189" : "a6671d", "a38d59" : "915622", "735e3a" : "743e1d" },
+    //PUMPKIN
+    { "d9c189" : "DC6C29", "a38d59" : "CB4D35", "735e3a" : "741D13" },
+    //ORANGE
+    { "d9c189" : "efa838", "a38d59" : "be6d1d", "735e3a" : "834012" },
+    //DIRTY BLONDE
+    { "d9c189" : "eaa758", "a38d59" : "cd8b3d", "735e3a" : "93682c" },
+    //YELLOW
+    { "d9c189" : "e6e756", "a38d59" : "c7ac3f", "735e3a" : "a9882f" },
+    //LEMON
+    { "d9c189" : "fbed04", "a38d59" : "dcc400", "735e3a" : "b2940e" },
+    //BLONDE
+    { "d9c189" : "f1d992", "a38d59" : "daba5e", "735e3a" : "b59a4d" },
+    //LIGHT YELLOW
+    { "d9c189" : "f2eba3", "a38d59" : "dcd28c", "735e3a" : "c2b677" },
+    //TOOTHPASTE GREEN
+    { "d9c189" : "f2ffed", "a38d59" : "b7ffd9", "735e3a" : "4abc80" },
+    //CANDY GREEN
+    { "d9c189" : "b8fd99", "a38d59" : "7cf49a", "735e3a" : "5bdc7d" },
+    //LIGHT GREEN
+    { "d9c189" : "A7D13D", "a38d59" : "83AD22", "735e3a" : "6B880B" },
+    //GREEN
+    { "d9c189" : "4ece61", "a38d59" : "34ae47", "735e3a" : "228a38" },
+    //HERB
+    { "d9c189" : "62b83c", "a38d59" : "299e28", "735e3a" : "257410" },
+    //DARK GREEN
+    { "d9c189" : "3b7f44", "a38d59" : "2e6a38", "735e3a" : "1d4b28" },
+    //WASABI
+    { "d9c189" : "9e9e00", "a38d59" : "708200", "735e3a" : "303800" },
+    //ANOMALY 0-0T
+    { "d9c189" : "A5D9D2", "a38d59" : "B0D1CD", "735e3a" : "85BEB7" },
+    //TORQUOISE
+    { "d9c189" : "5BD5B6", "a38d59" : "4AA9AD", "735e3a" : "237082" },
+    //LIGHT TURQUOISE
+    { "d9c189" : "49E193", "a38d59" : "3BA380", "735e3a" : "197C81" },
+    //LIGHT BLUE
+    { "d9c189" : "61BCDE", "a38d59" : "5381CC", "735e3a" : "2C489E" },
+    //BLUE
+    { "d9c189" : "5d8bc7", "a38d59" : "4d55b0", "735e3a" : "2e2a73" },
+    //BLUEBERRY
+    { "d9c189" : "7c769f", "a38d59" : "625d7d", "735e3a" : "434057" },
+    //DARK BLUE
+    { "d9c189" : "425879", "a38d59" : "343965", "735e3a" : "242247" },
+    //DARK PURPLE
+    { "d9c189" : "7f3b6d", "a38d59" : "6a2e53", "735e3a" : "4b1d30" },
+    //PURPLE
+    { "d9c189" : "653b7f", "a38d59" : "562e6a", "735e3a" : "3f1d4b" },
+    //PINK CAKE
+    { "d9c189" : "E0C1B3", "a38d59" : "D89A9E", "735e3a" : "C37D92" },
+    //HOT PINK
+    { "d9c189" : "cd72d9", "a38d59" : "ac4da6", "735e3a" : "913b86" },
+    //PINK
+    { "d9c189" : "D26BA4", "a38d59" : "A54669", "735e3a" : "89334D" },
+    //LIGHT PURPLE
+    { "d9c189" : "ad68e2", "a38d59" : "8d41b0", "735e3a" : "6a2980" },
+    //BROWN GREY
+    { "d9c189" : "50422f", "a38d59" : "36261e", "735e3a" : "170f0d" },
+    // DARK GREY
+    { "d9c189" : "525252", "a38d59" : "363636", "735e3a" : "161616" },
+    // GREY
+    { "d9c189" : "74726f", "a38d59" : "53504d", "735e3a" : "2a251e" },
+    // GREY BLUE
+    { "d9c189" : "6f6d85", "a38d59" : "525269", "735e3a" : "3e4352" },
+    // LIGHT GREY
+    { "d9c189" : "b8b8b8", "a38d59" : "828282", "735e3a" : "555555" },
+    // WHITE
+    { "d9c189" : "eaeaea", "a38d59" : "b8b8b8", "735e3a" : "828282" },
+    // BRIGHT WHITE
+    { "d9c189" : "FAFFF7", "a38d59" : "F0ECEA", "735e3a" : "D9C5D6" }
+  ]
+}

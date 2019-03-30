@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "webberwoodenstick", "count" : 3 },
+    { "item" : "webberspidersilk", "count" : 2 }
+  ],
+  "output" : { "item" : "webstick", "count" : 1 },
+  "groups" : [ "webberweaponworkbench", "webberweapon" ]
+}

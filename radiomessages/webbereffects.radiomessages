@@ -1,0 +1,8 @@
+{
+  "wrongspeciesusingsilkcollector" : {
+    "unique" : false,
+    "text" : "The machine you have just equipped is not made for your biology, and therefore it is destroying a vital organ that you need. Take it off immediately for your safety.",
+    "portraitImage" : "yell.<frame>",
+    "textSpeed" : 70
+  }
+}

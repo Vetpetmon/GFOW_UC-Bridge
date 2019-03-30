@@ -1,0 +1,11 @@
+{
+  "itemName": "webbertungstenplating",
+  "rarity": "common",
+  "price": 200,
+  "category": "webberweaponpart",
+  "inventoryIcon" : "tungstenplating.png",
+  "description" : "For when you want to hide the insides of your gun. ^cyan;For use by Webbers.^white;",
+  "learnBlueprintsOnPickup" : [ "webbertungstenplatingyellow" ],
+  "shortdescription" : "Tungsten Plate",
+  "itemTags" : [ "reagent" ]
+}

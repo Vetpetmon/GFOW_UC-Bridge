@@ -1,0 +1,44 @@
+{
+  "objectName" : "candavascrusher",
+  "colonyTags" : [ "candavasian" ],
+  "rarity" : "Essential",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/candacrusher.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^orange;Crushing Station^reset;",
+        "subtitle" : "Crushes materials into fine powder.",
+        "icon" : {
+          "file" : "/interface/crafting/candachocopowder.png"
+        }
+      }
+    },
+    "filter" : [ "candavascrushing" ]
+  },
+  "printable" : false,
+  "race" : "candavaswebber",
+  "category" : "crafting",
+  "price" : 250,
+  "description" : "Crushes materials into fine powder.",
+  "subtitle" : "Crushing Station",
+  "shortdescription" : "^orange;Crushing Station^reset;",
+
+
+  "candavaswebberDescription" : "Smashing stuff up into pieces is fun!",
+
+  "inventoryIcon" : "candavascrushericon.png",
+  "orientations" : [
+    {
+      "dualImage" : "candavascrusher.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "type" : "vanokkwebnightshade",
+  "baseType" : "merchant",
+
+  "identity" : {
+    "gender" : "male",
+    //species: common
+    "bodyDirectives": "?replace;1a1a1a=1a1a1a;171717=171717;121212=121212;101010=101010;222222=222222;ededed=ededed;ffffff=ffffff;00d9d1=121212;00fff6=171717;00dc24=171717;2b943c=121212;575757=171717;3b3b3b=171717",
+    "hairDirectives": "?replace;1a1a1a=1a1a1a;171717=171717;121212=121212;101010=101010;222222=222222;ededed=ededed;ffffff=ffffff;00d9d1=121212;00fff6=171717;00dc24=171717;2b943c=121212;575757=171717;3b3b3b=171717",
+    "emoteDirectives": "?replace;1a1a1a=1a1a1a;171717=171717;121212=121212;101010=101010;222222=222222;ededed=ededed;ffffff=ffffff;00d9d1=121212;00fff6=171717;00dc24=171717;2b943c=121212;575757=171717;3b3b3b=171717",
+    "species": "webber",
+    "name" : "Nightshade"
+  },
+
+  "damageTeamType" : "ghostly",
+
+  "persistent" : true,
+
+    "dropPools" : [ ],
+
+  "scriptConfig" : {
+    "reactions" : {
+      "spontaneous" : [
+      ]
+    },
+    "personalities" : [
+        [1.0, { "personality" : "normal", "reactions" : {} }]
+    ],
+    "behaviorConfig" : {
+      "play" : false,
+      "chat" : false
+    },
+    "merchant" : {
+      "waitTime" : 40,
+      "storeRadius" : 8,
+      "poolsFile" : "/npcs/webbers/vanokk/under/zone48/webbermerchantshady.config",
+      "categories" : {
+        "webber" : [ "webshadymerch" ]
+      }
+    },
+    "buyFactorRange" : [ 1.0, 1.0 ],
+    "sellFactorRange" : [ 0.2, 0.2 ],
+    "numItems" : 5,
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "Nightshade Armokkis",
+        "subtitle" : "Welcome to the black market, kiddo."
+      }
+    },
+
+    "dialog" : {
+      "merchant" : {
+        "start" : {
+          "default" : {
+            "default" : [
+              "Take a look. You touch, you buy."
+            ]
+          }
+        },
+        "welcome" : {
+          "default" : {
+            "default" : [
+              "First rule: you saw nothing."
+            ]
+          }
+        },
+        "end" : {
+          "default" : {
+            "default" : [
+              "This place never existed."
+            ]
+          }
+        },
+        "follow" : {
+          "default" : {
+            "default" : [
+              "..."
+            ]
+          }
+        },
+        "tout" : {
+          "default" : {
+            "default" : [
+              "..."
+            ]
+          }
+        }
+      }
+    }
+  },
+    "matchColorIndices" : true,
+    "items" : {
+        "override" : [
+            [0,[
+                    {
+                        "chest" : [{ "name" : "webberoutfit1chest", "parameters" : { "colorIndex" : [5] } }],
+                        "legs" : [{ "name" : "webberoutfit1legs", "parameters" : { "colorIndex" : [3] } }]
+                    }
+            ] ]
+        ]
+    }
+  }

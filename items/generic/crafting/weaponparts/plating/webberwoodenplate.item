@@ -1,0 +1,11 @@
+{
+  "itemName": "webberwoodenplate",
+  "rarity": "common",
+  "price": 200,
+  "category": "webberweaponpart",
+  "inventoryIcon" : "webberwoodenplate.png",
+  "description" : "For when you want to hide the insides of your gun. ^cyan;For use by Webbers.^white;",
+  "learnBlueprintsOnPickup" : [ "webbertungstenplating" ],
+  "shortdescription" : "Wooden Plate",
+  "itemTags" : [ "reagent" ]
+}

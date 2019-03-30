@@ -1,0 +1,25 @@
+[
+  {
+    "op": "add",
+    "path": "/gfowkattykatbody",
+    "value": {
+      "stats" : {
+        "energy" : 2,
+        "protection" : 4
+      },
+      "partParameters" : {
+        //"hazardImmunities" : ["biomeanomaly1"] // commented out to see if this is casuing the issue.
+      },
+      "partImages" : {
+        "bodyFront" : "body/GFOW-KATTY-KAT_front.png"
+      },
+      "defaultPrimaryColors" : ["eab3db", "d35eae", "97276d", "59163f"],
+      "defaultSecondaryColors" : ["e6e6e6", "b6b6b6", "7b7b7b", "373737"],
+      "animationCustom" : {
+        "animatedParts" : { "parts" : { "bodyFront" : { "properties" : {
+          "sitPosition" : [0.0625, 0.5]
+        }}}}
+      }
+    }
+  }
+]

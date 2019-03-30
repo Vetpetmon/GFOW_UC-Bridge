@@ -1,0 +1,71 @@
+{
+  "objectName" : "webbercushionlarge",
+  "colonyTags" : [ "webber" ],
+  "rarity" : "Common",
+
+  "description" : "A sticky cushion made of webbing.",
+  "shortdescription" : "Large Webbed Cushion",
+  "race" : "webber",
+  "category" : "furniture",
+  "price" : 500,
+  "printable" : false,
+  "retainObjectParametersInItem" : true,
+
+  "apexDescription" : "Sitting on this cushion would be an insane thing to do.",
+  "avianDescription" : "I sat on these kinds of cushions once. I've lost too many feathers trying to get off of them.",
+  "floranDescription" : "Floran would not dare.",
+  "glitchDescription" : "Disgusted. Learned this the hard way before. Silk sticks to metal, even.",
+  "humanDescription" : "THEY HAVE GIANT PILLOWS TOO?",
+  "hylotlDescription" : "Smells a bit vile. The scent is strong, so this must be a lot of webber silk.",
+  "novakidDescription" : "Ain't gonna lay down on this. Not ever.",
+
+  "webberDescription" : "Nothing ever beats the comfort of real silk.",
+  "fiiDescription" : "Click, it's a cushion made of spiderthing silk.",
+
+  "neonguetDescription" : "One day, this cusion will loose it's sticky properties.",
+  "sharakoDescription" : "This is a great source of webber silk. This should prove useful in the lab.",
+
+  //ERM support
+
+  "aegiDescription" : "TODO",
+  "avikanDescription" : "TODO",
+  "trinkDescription" : "TODO",
+  "drodenDescription" : "TODO",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : true,
+  "sitOrientation" : "lay",
+  "sitAngle" : 60,
+
+  "inventoryIcon" : "webbercushionlargeicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "webbercushionlarge.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "right",
+      "sitPosition" : [0, 12],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    },
+    {
+      "dualImage" : "webbercushionlarge.png:<color>",
+
+      "imagePosition" : [-8, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+      "direction" : "left",
+      "sitPosition" : [12, 12],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+
+
+}

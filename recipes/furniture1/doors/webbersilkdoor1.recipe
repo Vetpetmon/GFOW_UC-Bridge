@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "webberspidersilk", "count" : 5 },
+    { "item" : "plantmatter", "count" : 6 }
+  ],
+  "output" : { "item" : "webbersilkdoor1", "count" : 1 },
+  "groups" : [ "craftingfurniture", "doors", "all" ]
+}

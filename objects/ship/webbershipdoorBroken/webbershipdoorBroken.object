@@ -1,0 +1,36 @@
+{
+  "objectName" : "webbershipdoorBroken",
+  "colonyTags" : ["webber"],
+  "printable" : false,
+  "rarity" : "Common",
+  
+  "category" : "decorative",
+  "description" : "A door suitable for a spaceship.",
+  "shortdescription" : "webber Ship Door",
+  "race" : "webber",
+  "apexDescription" : "An old door. This one is especially not playing nicely.",
+  "avianDescription" : "A spider-infested door. It won't open.",
+  "floranDescription" : "Ssilky door won't open",
+  "glitchDescription" : "Disappointed. A door. It appears to be disabled currently.",
+  "humanDescription" : "It's old, and I was not taught how to fix old technology.",
+  "hylotlDescription" : "A rather ornate silk ship door. It won't open at the moment.",
+  "novakidDescription" : "The door is broken beyond fixing, it ain't opening any time soon.",
+  "webberDescription" : "Oh no, it's broken! Sadly, eight legs can't simply just fix anything, though...",
+  "inventoryIcon" : "webbershipdoorBrokenicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "webbershipdoorBroken.png:default",
+      "imagePosition" : [-20, 0],
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom", "top" ],
+      "collision" : "solid",
+      "collisionSpaces" : [ [-1, 0], [0, 0], [-1, 1], [0, 1], [-1, 2], [0, 2], [-1, 3], [0, 3], [-1, 4], [0, 4] ]
+    }
+  ],
+  "animation" : "/objects/noisy/noisy.animation",
+  "scripts" : [
+    "/objects/noisy/noisy.lua"
+  ],
+  
+  "sounds" : [ "/sfx/interface/ship_error1.ogg" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "webberspidersilk", "count" : 18 },
+    { "item" : "cottonwool", "count" : 2 },
+    { "item" : "fabric", "count" : 2 }
+  ],
+  "output" : { "item" : "webberbed", "count" : 1 },
+  "groups" : [ "craftingfurniture", "beds", "all" ]
+}

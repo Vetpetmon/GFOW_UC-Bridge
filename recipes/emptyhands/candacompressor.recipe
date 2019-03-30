@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "logblock", "count" : 22 },
+    { "item" : "cobblestonematerial", "count" : 6},
+    { "item" : "plantfibre", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "candacompressor",
+    "count" : 1
+  },
+  "groups" : [ "plain", "all" ]
+}

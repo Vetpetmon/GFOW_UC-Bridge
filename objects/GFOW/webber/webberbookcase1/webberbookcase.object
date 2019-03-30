@@ -1,0 +1,46 @@
+{
+  "objectName" : "webberbookcase1",
+  "colonyTags" : [ "webber", "storage", "library" ],
+  "rarity" : "common",
+  "printable" : false,
+  "race" : "webber",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+  "category" : "storage",
+  "price" : 150,
+  "description" : "It's a multipurposed bookcase, with spider webs inside.",
+  "shortdescription" : "Standard Webbed Bookcase",
+  "health" : 1.5,
+
+  "apexDescription" : "Where's the pesticides around here? I just wanted to read a book, not touch webs.",
+  "avianDescription" : "This bookcase looks brand new, yet there's webbing all over it!",
+  "floranDescription" : "Floran sssmellsss webber sssilk. It mussst own bookcassse.",
+  "glitchDescription" : "Disgusted. It seems that someone does not want to take care of their bookcase.",
+  "humanDescription" : "Looks old to me, but the books look brand new.",
+  "hylotlDescription" : "I wonder why webbers prefer to place silk on their furnture. Is it a sign of ownership?",
+  "novakidDescription" : "It'sa bookcase. I wonder what the books in it are about.",
+  "webberDescription" : "I might just take a break and read a book. We haven't read anything in a long time.",
+  "fiiDescription" : "Click click, bookcases store books. Click, this also stores webbing.",
+
+  "openSounds" : [ "/sfx/objects/bookcase_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/bookcase_close.ogg" ],
+  "slotCount" : 32,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600,
+
+  "inventoryIcon" : "webberbookcaseicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "webberbookcase.png:<color>",
+
+      "imagePosition" : [-12, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+  }

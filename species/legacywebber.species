@@ -1,0 +1,69 @@
+{
+  "kind" : "legacywebbers",
+	"charCreationTooltip" : {
+	"title" : "legacywebbers",
+	"subTitle" : "O2",
+	"description" : "A clone. With no apparent mutations."
+  },
+  "nameGen" : [ "/species/webbermalenamegen.config:names", "/species/webbermalenamegen.config:names" ],
+  "ouchNoises" : [ "/sfx/humanoid/webberhurt.ogg", "/sfx/humanoid/webberhurt.ogg" ],
+  "charGenTextLabels" : [ "Skin colour", "Hair style", "Shirt", "Legwear", "Underwear", "Hair colour", "Shirt colour", "Legwear colour", "THE CLONED", "Personality" ],
+  "skull" : "/humanoid/webber/dead.png",
+  "effectDirectives" : "?replace=FEFFFFFF=FFFFFFFF?replace=9bd4ffFF=ffea63FF?replace=31a6ffFF=f5bc00FF",
+  "defaultBlueprints" : {
+    "tier1" : [
+
+// Spinning Wheel
+      { "item" : "webberoutfit1chest" },
+      { "item" : "webberoutfit1legs" },
+      { "item" : "webberoutfit2chest" },
+      { "item" : "webberoutfit2legs" },
+      { "item" : "webberoutfit3chest" },
+      { "item" : "webberoutfit3legs" },
+      { "item" : "webberoutfit4chest" },
+      { "item" : "webberoutfit4legs" }
+	  ]
+  },
+
+  "altOptionAsUndyColor" : true,
+  "headOptionAsHairColor" : true,
+  "altOptionAsHairColor" : true,
+  "genders" : [
+    {
+       "name" : "male",
+      "image" : "/interface/title/webbermaleico.png",
+      "characterImage" : "/interface/title/webbermale.png",
+      "hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13" ],
+      "shirt" : [ "webberoutfit1chest", "webberoutfit2chest", "webberoutfit3chest", "webberoutfit4chest" ],
+      "pants" : [ "webberoutfit1legs", "webberoutfit2legs", "webberoutfit3legs", "webberoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    },
+    {
+      "name" : "female",
+      "image" : "/interface/title/webberfemico.png",
+      "characterImage" : "/interface/title/webberfemale.png",
+      "hair" : [ "male1", "male2", "male3", "male4", "male5", "male6", "male7", "male8", "male9", "male10", "male11", "male12", "male13" ],
+      "shirt" : [ "webberoutfit1chest", "webberoutfit2chest", "webberoutfit3chest", "webberoutfit4chest" ],
+      "pants" : [ "webberoutfit1legs", "webberoutfit2legs", "webberoutfit3legs", "webberoutfit4legs" ],
+      "facialHairGroup" : "",
+      "facialHair" : [ ],
+      "facialMaskGroup" : "",
+      "facialMask" : [ ]
+    }
+  ],
+  "bodyColor" : [
+    //literally nothing.
+    { "000000" : "000000"}
+  ],
+  "undyColor" : [
+    //literally nothing.
+    { "000000" : "000000"}
+  ],
+  "hairColor" : [
+    //literally nothing.
+    { "000000" : "000000"}
+  ]
+}

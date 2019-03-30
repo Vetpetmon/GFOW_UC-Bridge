@@ -1,0 +1,69 @@
+{
+    //Ship-related stuff
+
+    //SAIL reboot
+    "latemessage1" : {
+        "type" : "tutorial",
+        "text" : "You have three messages left unheard while the system was down. I will open them up for you to hear.",
+        "textSpeed" : 70,
+        "persistTime" : 5.0
+    },
+    "latemessage1a" : {
+        "type" : "tutorial",
+        "text" : "This is the monthly test of the emergency broadcasting station of the federation. If you are having trouble getting this message on time, please call 8234-293-2100 for technical support.",
+        "senderName" : "Fedge Aquatosis",
+        "portraitImage" : "/interface/chatbubbles/fedgetalk.png:<frame>",
+        "textSpeed" : 70,
+        "persistTime" : 8.0
+    },
+    "latemessage1b" : {
+        "type" : "tutorial",
+        "text" : "You have obtained this message 18 days ago. I would suggest that you call the provided number to fix any technical issues.",
+        "textSpeed" : 70,
+        "persistTime" : 5.0
+    },
+    "latemessage1c" : {
+        "type" : "tutorial",
+        "text" : "This is the emergency broadcasting station. This is not a drill. An anomaly called \"0-0T\" has leaked into the area under Vanokk's surface and into the city.",
+        "senderName" : "Fedge Aquatosis",
+        "portraitImage" : "/interface/chatbubbles/fedgetalk.png:<frame>",
+        "textSpeed" : 70,
+        "persistTime" : 8.0
+    },
+    "latemessage1d" : {
+        "type" : "tutorial",
+        "text" : "Do not touch the liquid. If you do, find a therapist or run to your local correctional facility. We repeat: Do not touch the liquid.",
+        "senderName" : "Fedge Aquatosis",
+        "portraitImage" : "/interface/chatbubbles/fedgetalk.png:<frame>",
+        "textSpeed" : 70,
+        "persistTime" : 8.0
+    },
+    "latemessage1e" : {
+        "type" : "tutorial",
+        "text" : "You have obtained this message 13 days ago. It is a distress signal from Vanokk that should not be ignored.",
+        "textSpeed" : 70,
+        "persistTime" : 5.0
+    },
+    "latemessage1f" : {
+        "type" : "tutorial",
+        "text" : "This is the emergency broadcasting station. This is not a drill. There are various mutants held for studying that have broken their way out into public areas.",
+        "senderName" : "Fedge Aquatosis",
+        "portraitImage" : "/interface/chatbubbles/fedgetalk.png:<frame>",
+        "textSpeed" : 70,
+        "persistTime" : 8.0
+    },
+    "latemessage1g" : {
+        "type" : "tutorial",
+        "text" : "Do not panic. If the dangers do pose a threat to you, run. They are not fully understood, but we know that they do attack.",
+        "senderName" : "Fedge Aquatosis",
+        "portraitImage" : "/interface/chatbubbles/fedgetalk.png:<frame>",
+        "textSpeed" : 70,
+        "persistTime" : 8.0
+    },
+    "latemessage1h" : {
+        "type" : "tutorial",
+        "text" : "You have obtained this message 4 hours ago. It is a distress signal from Vanokk that should not be ignored. Your inbox is now empty.",
+        "textSpeed" : 70,
+        "persistTime" : 8.0
+    }
+}

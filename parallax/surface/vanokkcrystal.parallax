@@ -1,0 +1,22 @@
+{
+  "layers" : [
+  {
+      "kind" : "vanokkcrystalback",
+      "baseCount" : 1,
+      "offset" : [19, 140],
+      "parallax" : 9,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0
+    },
+    {
+      "kind" : "vanokkcrystalfront",
+      "baseCount" : 1,
+      "offset" : [0, 510],
+      "parallax" : 6,
+      "nightCorrelation" : 0,
+      "minSpeed" : 0,
+      "maxSpeed" : 0
+    }
+  ]
+}

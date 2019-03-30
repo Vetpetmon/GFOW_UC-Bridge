@@ -1,0 +1,44 @@
+{
+  "objectName" : "candavaspastebowl",
+  "colonyTags" : [ "candavasian" ],
+  "rarity" : "Essential",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/candapaste.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "^orange;Mixing Bowl^reset;",
+        "subtitle" : "Mixes together basic materials.",
+        "icon" : {
+          "file" : "/interface/crafting/candachocopaste.png"
+        }
+      }
+    },
+    "filter" : [ "candavasmixing" ]
+  },
+  "printable" : false,
+  "race" : "candavaswebber",
+  "category" : "crafting",
+  "price" : 250,
+  "description" : "A station to mix materials together. Not exactly suitable for mixing chemicals.",
+  "subtitle" : "Mixing Bowl",
+  "shortdescription" : "^orange;Mixing Bowl^reset;",
+
+
+  "candavaswebberDescription" : "Some things just need to be mixed together.",
+
+  "inventoryIcon" : "candavaspastebowlicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "candavaspastebowl.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

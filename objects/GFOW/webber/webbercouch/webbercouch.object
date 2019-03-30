@@ -1,0 +1,68 @@
+{
+  "objectName" : "webbercouch",
+  "colonyTags" : ["webber"],
+  "printable" : false,
+  "rarity" : "Common",
+  "description" : "A soft and slightly sticky spider silk couch.",
+  "shortdescription" : "Webbed Couch",
+  "race" : "webber",
+  "category" : "furniture",
+  "price" : 500,
+
+  "apexDescription" : "Sitting on this couch would be an insane thing to do.",
+  "avianDescription" : "I sat on these kinds of cushions once. I've lost too many feathers trying to get off of them.",
+  "floranDescription" : "Floran would not dare.",
+  "glitchDescription" : "Disgusted. Learned this the hard way before. Silk sticks to metal, even.",
+  "humanDescription" : "I'd totally sit on this for a hundred pixels. I'd seriously do it.",
+  "hylotlDescription" : "Smells a bit vile. The scent is strong, so this must be a lot of webber silk.",
+  "novakidDescription" : "Ain't gonna sit on this chair. Not ever.",
+
+  "webberDescription" : "Nothing ever beats the comfort of real silk.",
+  "fiiDescription" : "Click, couch has cushions made of spiderthing silk.",
+
+  "neonguetDescription" : "I wonder how webbers themselves can sit on this without getting stuck",
+  "sharakoDescription" : "Odd. This is what they sit and lay on all day. I wonder what that habbit is called.",
+
+  //ERM support
+
+  "aegiDescription" : "Webbers seem to be a lot like our ancestors. Lazy.",
+  "avikanDescription" : "Spider silk is too sticky to be sat on. It's not delicate, though.",
+  "trinkDescription" : "This couch has skillfully weaved spider silk cushions. Nothing else but arachnids can handle this type of silk withouth issues.",
+  "drodenDescription" : "Analysis. The cushions on the couch are made of spider silk and show evidence of long-term use, despite still being dated new. Further investigation requested.",
+
+  "objectType" : "loungeable",
+  "sitFlipDirection" : false,
+
+  "inventoryIcon" : "webbercouchicon.png",
+  "orientations" : [
+    {
+      "image" : "webbercouch.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "left",
+      "flipImages" : true,
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-6, 20], // Right
+        [6, 20] // Left
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "image" : "webbercouch.png:<color>",
+      "imagePosition" : [-16, 0],
+      "direction" : "right",
+
+      "sitPositions" : [
+        // Positions from front to back.
+        [-4, 20], // Left
+        [8, 20] // Right
+      ],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}

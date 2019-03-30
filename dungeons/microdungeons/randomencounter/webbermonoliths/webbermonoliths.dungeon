@@ -1,0 +1,25 @@
+{
+  "metadata" : {
+    "name" : "webbermonoliths",
+    "species" : "generic",
+    "rules" : [
+    ],
+
+    "anchor" : [ "monolith1" ],
+
+    "gravity" : 80,
+    "maxRadius" : 1000000,
+    "maxParts" : 1,
+    "protected" : false
+  },
+
+  "parts" : [
+    {
+      "name" : "monolith1",
+      "rules" : [
+        [ "maxSpawnCount", [1] ]
+      ],
+      "def" : [ "tmx", "monolith1.json" ]
+    }
+  ]
+}

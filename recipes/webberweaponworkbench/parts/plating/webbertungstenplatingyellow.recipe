@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "yellowdye", "count" : 1 },
+    { "item" : "tungstenbar", "count" : 3 }
+  ],
+  "output" : { "item" : "webbertungstenplatingyellow", "count" : 1 },
+  "groups" : [ "webberweaponworkbench", "webberweaponpart" ]
+}

@@ -1,0 +1,85 @@
+{
+  "type" : "webbersettlergarden",
+  "baseType" : "base",
+
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "dropPools" : [ "webbermeats" ],
+
+  "scriptConfig" : {
+    "behavior" : "villager",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0.2,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common"],
+      "enableParticipation" : false,
+      "timeLimit" : 30,
+      "nearbyQuestLimit" : 1,
+      "nearbyQuestRange" : 40,
+      "chance" : 0.01
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "wander"]
+      ]
+    },
+
+    "dialog" : {
+      "flee" : {
+        "helpme" : "/dialog/legacy/webbersettlerconverse.config:helpme",
+        "safe" : "/dialog/legacy/webbersettlerconverse.config:safe"
+      },
+        "greeting" : "/dialog/legacy/webbersettlerconverse.config:greeting",
+        "converse" : "/dialog/legacy/webbersettlerconverse.config:converse",
+        "accuse" : "/dialog/legacy/webbersettlerconverse.config:accuse",
+        "alert" : "/dialog/legacy/webbersettlerconverse.config:alert"
+      }
+    },
+    "items" : {
+        "webber" : [
+            [0,
+                [
+                    {
+                        "chest" : [
+                            { "name" : "webberoutfit1chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit2chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit3chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit4chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ],
+                        "legs" : [
+                            { "name" : "webberoutfit1legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit2legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit3legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "webberoutfit4legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 80.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

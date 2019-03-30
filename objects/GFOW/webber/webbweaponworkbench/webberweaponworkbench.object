@@ -1,0 +1,62 @@
+{
+  "objectName" : "webberweaponworkbench",
+  "colonyTags" : [ "webber" ],
+  "rarity" : "Essential",
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/windowconfig/webberweaponworkbench.config",
+    "paneLayoutOverride" : {
+      "windowtitle" : {
+        "title" : "DIY Weapon Workbench",
+        "subtitle" : "Make weapons, but you do it yourself. Parts not included.",
+        "icon" : {
+          "file" : "/interface/crafting/craftingicon.png"
+        }
+      }
+    },
+    "filter" : [ "webberweaponworkbench" ]
+  },
+  "printable" : false,
+  "race" : "webber",
+  "category" : "crafting",
+  "price" : 250,
+  "description" : "Crafts weapon parts specialized for Webbers.",
+  "subtitle" : "Weapon part crafter",
+  "shortdescription" : "^orange;Webbed Wooden Weapon Workbench^reset;",
+
+  "apexDescription" : "It's a workbench. For whatever reason, Webbers prefer to make weapons in this primitive way.",
+  "avianDescription" : "This work station is unusual. Do Webbers really craft all of their weapons like this?",
+  "floranDescription" : "Floran doesssn't underssstand the Webber way of crafting weaponsss.",
+  "glitchDescription" : "Surprised. This is an old and time-consuming way of putting weapons together that is still practiced.",
+  "humanDescription" : "Hey, this method of weapon crafting looks oddly familiar...",
+  "hylotlDescription" : "Webbers can weave, but I'm also surprised to learn that they also value crafting their own custom weapons.",
+  "novakidDescription" : "Ah, some part-by-part weapon assembling sounds exciting!",
+
+  "webberDescription" : "We can make customized weapons here! All we need to do is make some parts and put them together! Factory-made weapons are so overrated.",
+  "fiiDescription" : "Click click, Blackwalli-related spdierthings build weapons part-by-part.",
+
+  "neonguetDescription" : "It's better to compose weapons in factories. However, I do see their reasoning with making their own signature and unique weapons.",
+  "sharakoDescription" : "The webbers' way of producing weapons is primitive. Mass production is far more effective.",
+
+  //ERM support
+
+  "aegiDescription" : "A slow way to create weapons, but at least you know exactly what's in homemade weapons.",
+  "avikanDescription" : "This method of weapon creation is fun, but ineffective. Also illegal if you don't own a lisence.",
+  "trinkDescription" : "There's better ways to make weapons.",
+  "drodenDescription" : "Analysis incomplete. Appears to be a workbench at the very most. Purpose unknown.",
+
+  "inventoryIcon" : "webberweaponworkbenchicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "webberweaponworkbench.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+}

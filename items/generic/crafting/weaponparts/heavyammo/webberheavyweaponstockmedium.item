@@ -1,0 +1,10 @@
+{
+  "itemName": "webberheavyweaponstockmedium",
+  "rarity": "common",
+  "price": 200,
+  "category": "webberweaponpart",
+  "inventoryIcon" : "webberheavyweaponstocksmall.png",
+  "description" : "This holds a good amount of heavy ammo, for when explosions are prefered. ^cyan;For use by Webbers.^white;",
+  "shortdescription" : "Medium Heavy Stock",
+  "itemTags" : [ "reagent" ]
+}

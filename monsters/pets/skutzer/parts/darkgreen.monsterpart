@@ -1,0 +1,9 @@
+{
+  "name" : "darkgreen",
+  "category" : "petskutzer",
+  "type" : "body",
+
+  "frames" : {
+    "body" : "darkgreen.png"
+  }
+}

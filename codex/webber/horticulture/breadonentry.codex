@@ -1,0 +1,40 @@
+{
+	"id" : "webbreadonentry",
+	"title" : "VANOKKIAN HORTICULTURE - BREADON",
+	"description" : "A chapter of the Vanokkian Horticulture Guide to take care of breadon plants and how to harvest one.",
+	"icon" : "humancover7.png",
+	"contentPages" : [
+    "BREADON:
+    Breadon is one of the most famous crops on Vanokk. It's used in over five thousand native recipes, such as honey-dipped breadon, jell sopatch, and sou' batter.
+
+    While breadon may be sold at good prices, it's well worth the effort taken to grow your own.
+    ",
+    "It takes around 7-9 arches for genetically modified breadon to grow, but in the wild, the plants take around 5 seasons otherwise. A breadon plant will usually grow fine in regular soil with daily watering, but there's a traditional method Breadon World farmers have revealed for growing Breadon efficiently and effectively.",
+    "To make soil just for growing breadon plants, you must make a compost with the following:
+    + 5 broken up bird eggs (no yolk, the more broken apart, the better)
+    + 1 pound of Skutzer droppings
+    + 1 tablespoon of wood ashes
+    + 6 Varran berries
+    + 3 ounces of Dorker slime
+    Let the ingredients compost for a season.
+    Protecting breadon plants with fungicide is recommended to ensure a harvest.
+    ",
+    "With breadon compost, you only need to water three times a arch, only 7 arches to grow, and no need to fertilze.",
+    "To harvest breadon, first check that the plant has large pods.
+
+    Next, use a sharp needle to poke a small hole onto the surface of the bud. Do not make the hole more than a centimeter deep.
+
+    Proceed to pinch down the bottom of the bud, and you should see the bud turning into a pale brown color.",
+    "After that, the breadon should pop out of the bud with little to no damage done to the vegetable.
+
+    Breadon plants do not require replanting after harvesting unless if diseased.",
+    "Diseases that do affect breadon would have to be the Lorum Fungus, which releases toxins into the breadon buds, turning them red and releasing toxins into the produce.
+
+    It has been proven that the toxins produced do weaken the bichoholus, causing death if ingested. Breadon produce that is diseased with Lurm Fungus will be red when raw, black if cooked.
+    "
+	],
+		"itemConfig" : {
+		"rarity" : "common",
+		"price" : 25
+	}
+}

@@ -1,0 +1,103 @@
+{
+  "type" : "candavaswebbertenant",
+  "baseType" : "generictenant",
+
+  "levelVariance" : [3, 3],
+  "persistent" : true,
+
+  "damageTeamType" : "friendly",
+
+  //TODO
+
+  //"dropPools" : [ "" ],
+
+  "scriptConfig" : {
+    "behavior" : "villager",
+
+    "behaviorConfig" : {
+      "greetingChance" : 0.3,
+
+      "hostileDamageTeam" : { "type" : "enemy", "team" : 1 }
+    },
+
+    "questGenerator" : {
+      "pools" : ["common", "tenant"],
+      "enableParticipation" : false,
+      "timeLimit" : 30,
+      "nearbyQuestLimit" : 1,
+      "nearbyQuestRange" : 40,
+      "chance" : 0.01
+    },
+
+    "reactions" : {
+      "spontaneous" : [
+        [5.0, "sleep", { "timeRange" : [0.7, 0.9] }],
+        [1.0, "sit", { "timeRange" : [0.6,0.2]}],
+        [1.0, "patrol", { "timeRange" : [0.2, 0.6] }],
+        [1.0, "wander"]
+      ]
+    },
+
+    "dialog" : { 
+        "tenant" : {
+            "grumbles" : {
+            "tagCriteria" : "/dialog/cands/candavasianconverse.config:tagCriteria",
+            "enclosedArea" : "/dialog/cands/candavasianconverse:enclosedArea",
+            "otherDeed" : "/dialog/cands/candavasianconverse:otherDeed",
+            "severe" : "/dialog/cands/candavasianconverse:severe",
+            "final" : "/dialog/cands/candavasianconverse:final"
+            },
+        "arrivedHome" : {
+          "beacon" : "/dialog/cands/candavasianconverse:beacon",
+          "rent" : "/dialog/cands/candavasianconverse:rent"
+        }
+      },
+      "flee" : {
+        "helpme" : "/dialog/cands/candavasianconverse:helpme",
+        "safe" : "/dialog/cands/candavasianconverse:safe"
+      },
+        "greeting" : "/dialog/cands/candavasianconverse:greeting",
+        "converse" : "/dialog/cands/candavasianconverse:converse",
+        "accuse" : "/dialog/cands/candavasianconverse:accuse",
+        "alert" : "/dialog/cands/candavasianconverse:alert"
+      }
+    },
+    "items" : {
+        "candavaswebber" : [
+            [0,
+                [
+                    {
+                        "chest" : [
+                            { "name" : "candavaswebberoutfit1chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "candavaswebberoutfit2chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "candavaswebberoutfit3chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "candavaswebberoutfit4chest", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ],
+                        "legs" : [
+                            { "name" : "candavaswebberoutfit1legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "candavaswebberoutfit2legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "candavaswebberoutfit3legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } },
+                            { "name" : "candavaswebberoutfit4legs", "parameters" : { "colorIndex" : [1, 3, 4, 5, 6, 7, 8, 9] } }
+                        ]
+                    }
+                ]
+            ]
+        ]
+    },
+    "statusControllerSettings" : {
+    "stats" : {
+      "maxHealth" : {
+        "baseValue" : 80.0
+      },
+      "powerMultiplier" : {
+        "baseValue" : 0.0
+      },
+      "protection" : {
+        "baseValue" : 1.0
+      },
+      "healthRegen" : {
+        "baseValue" : 0.0
+      }
+    }
+  }
+}

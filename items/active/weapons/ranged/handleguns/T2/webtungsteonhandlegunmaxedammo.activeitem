@@ -1,0 +1,97 @@
+{
+  "itemName" : "webtungsteonhandlegunmaxedammo",
+  "price" : 420,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A very deadly firearm if you figure out how to operate it properly.
+  -medium ammo clip
+  -medium heavy ammo clip
+  -basic sights",
+  "shortdescription" : "Tungsten Handlegun",
+  "tooltipKind" : "gun",
+  "category" : "handlegun",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","ranged", "handlegun"],
+  "level" : 2,
+
+  "inventoryIcon" : "webtungsteonhandlegunmaxedammo.png",
+
+  "animation" : "/items/active/weapons/ranged/gun.animation",
+
+    "animationParts" : {
+      "butt" : "",
+      "middle" : "webtungsteonhandlegunmaxedammo.png",
+      "barrel" : "",
+      "muzzleFlash" : "/items/active/weapons/ranged/muzzleflash.png"
+    },
+
+    "animationCustom" : {
+      "sounds" : {
+        "fire" : ["/sfx/gun/revolver1.ogg"]
+      }
+  },
+  "baseOffset" : [1.0, 0.0],
+"muzzleOffset" : [2.5, 0.3],
+
+    "scripts" : [
+      "/items/active/weapons/ranged/gun.lua",
+      "/items/active/scripts/webheavyweaponlighter.lua"
+    ],
+
+    "elementalType" : "physical",
+
+    "primaryAbility" : {
+      "scripts" : ["/items/active/weapons/ranged/gunfire.lua"],
+      "class" : "GunFire",
+
+      "fireTime" : 0.11,
+      "baseDps" : 35.8,
+      "energyUsage" : 31,
+      "inaccuracy" : 0.05,
+
+      "projectileCount" : 2,
+      "fireType" : "auto",
+
+      "projectileType" : "standardbullet",
+      "projectileParameters" : {
+        "damageKind" : "shotgunbullet",
+        "knockback" : 3
+      },
+      "stances" : {
+        "idle" : {
+          "armRotation" : 0,
+          "weaponRotation" : 0,
+          "twoHanded" : true,
+
+          "allowRotate" : true,
+          "allowFlip" : true
+        },
+        "fire" : {
+          "duration" : 0.1,
+          "armRotation" : 0.3,
+          "weaponRotation" : 0.3,
+          "twoHanded" : true,
+
+          "allowRotate" : false,
+          "allowFlip" : false
+        },
+        "cooldown" : {
+          "duration" : 0.15,
+          "armRotation" : 0.1,
+          "weaponRotation" : 0.1,
+          "twoHanded" : true,
+
+          "allowRotate" : true,
+          "allowFlip" : true
+        }
+      }
+    },
+
+    //FU crit stats
+    "critChance" : 2,
+    "critBonus" : 6,
+
+    "altAbilityType" : "rocketburst",
+
+    "builder" : "/items/buildscripts/buildunrandweapon.lua"
+  }

@@ -1,0 +1,41 @@
+{
+  "objectName" : "webberfuelhatch",
+  "colonyTags" : ["webber"],
+  "printable" : false,
+  "rarity" : "Common",
+  "objectType" : "container",
+  "description" : "Accepts Liquid Erchius as fuel for the ship's FTL dive.",
+  "shortdescription" : "FTL Fuel Hatch",
+  "race" : "webber",
+  "lightColor" : [61, 88, 102],
+  "apexDescription" : "An inefficient FTL fuel hatch.",
+  "avianDescription" : "It sounds like it's leaking somwhere inside.",
+  "floranDescription" : "Old fuel hatch for old FTL drive. Let'ss fill it up.",
+  "glitchDescription" : "Excited. This FTL fuel hatch still works",
+  "humanDescription" : "An old fuel hatch. You put fuel inside and hope it doesn't spray it back at you.",
+  "hylotlDescription" : "This FTL fuel hatch is a poor example of function over decoration.",
+  "novakidDescription" : "FTL fuel goes in here, hopefully.",
+  "webberDescription" : "We need to get more fuel in order to move around the world!",
+  "inventoryIcon" : "fuelhatchicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "webberfuelhatch.png:<color>.<frame>", "fullbright" : true }, { "image" : "webberfuelhatchlit.png:<color>.<frame>" } ],
+      "imagePosition" : [-8, -16],
+      "frames" : 4,
+      "animationCycle" : 0.7,
+      "spaceScan" : 0.1,
+      "anchors" : [ "background" ]
+    }
+  ],
+  "hasWindowIcon" : false,
+  "recipeGroup" : "fuel",
+  "slotCount" : 6,
+  "uiConfig" : "/interface/fuel/fuel.config",
+  "autoCloseCooldown" : 3600,
+  "frameCooldown" : 5,
+  "itemTags" : [ "newfuelhatch" ],
+  "scripts" : ["/stagehands/radiomessage.lua"],
+  "scriptDelta" : 30,
+  "broadcastArea" : [-5, -5, 5, 5],
+  "radioMessage" : "fuel"
+}

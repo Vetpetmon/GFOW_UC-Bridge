@@ -1,0 +1,41 @@
+{
+  "objectName" : "webskutzerhome",
+  "colonyTags" : [ "webber" ],
+  "rarity" : "Legendary",
+  "printable" : false,
+  "race" : "webber",
+  "category" : "decorative",
+  "price" : 2500,
+  "description" : "This small dog house-like furniture houses a skutzer. Heat lamp is included.",
+  "shortdescription" : "Skutzer Home",
+
+  "apexDescription" : "Odd, pets don't need their own homes.",
+  "avianDescription" : "Is this an incubator?",
+  "floranDescription" : "Ssssmal thing livesss in houssse.",
+  "glitchDescription" : "Interested. I wonder what creature lives in this.",
+  "humanDescription" : "I didn't even know that these guys use dog houses for different critters.",
+  "hylotlDescription" : "A carefully made home for a pet.",
+  "novakidDescription" : "Seems to be a lil' home for a pig, if it had hay instead of rocks.",
+  "webberDescription" : "Pets deserve their own homes, too. That's a fact.",
+
+  "inventoryIcon" : "webberskutzerpethouse.png",
+  "orientations" : [
+    {
+      "dualImage" : "webberskutzerpethouse.png:<color>",
+
+      "imagePosition" : [-16, 0],
+      "frames" : 1,
+      "animationCycle" : 1.0,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ],
+
+  "scripts" : [ "/scripts/webspawnpet.lua"],
+
+  "scriptDelta" : 20,
+  "shipPetType" : "petskutzer", //"monsterType"
+  "spawnOffset" : [0, 2] //keep above 1 on the y value
+}
