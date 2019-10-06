@@ -6,6 +6,7 @@
   "link" : "steam://url/CommunityFilePage/1589422103",
   "name" : "SBTGFOWaddon",
   "path" : ".",
+  "priority" : 999,
   "requires" : ["UmbralCoalition"],
   "steamContentId" : "1589422103",
   "tags" : "Crafting and Building|NPCs and Creatures|Weapons|Dungeons|Ships|Species|Furniture and Objects|Mechanics|Armor and Clothes",
